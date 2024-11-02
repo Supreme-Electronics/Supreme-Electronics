@@ -1,0 +1,202 @@
+{
+  "title": "供應鏈管理",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730395740/bg-supply-chain_yg9ffz.webp",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "供應商的管理"
+            }
+          },
+          {
+            "type": "H2",
+            "props": {
+              "text": "供應商管理政策"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司視供應商為重要合作夥伴，持續規劃制定供應商管理政策，確保所銷售電子產品品質、交期與價格等符合規範外，亦與供應商維持長期合作關係，落實勞工安全與衛生、環境保護、道德規範、重視人權等，共同遵循相關規範及促進經濟、社會及環境之平衡與永續發展。",
+                "本公司主要供應商位於韓國、台灣、中國、越南、菲律賓等據點，為確保供應商夥伴擁有相同的永續發展理念，邀請供應商簽署「人權、環境永續暨誠信經營承諾書」。2023年並無具有強迫或強制勞動事件重大風險的營運據點和供應商。",
+                "基於保護兒童身心發展、禁止強迫勞動及不歧視之人權政策，本公司不雇用年齡未滿16 歲之童工、不強迫勞動及避免任何不當的聘雇歧視，並要求供應商同樣遵循國際標準及其營業據點之勞工聘僱應符合相關法律。2023年，本公司及供應商皆無發生歧視、使用童工、強迫勞動、歧視或其他違反勞工人權之重大風險或情事。"
+              ]
+            }
+          },
+
+          {
+            "type": "H2",
+            "props": {
+              "text": "供應商管理機制"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司對供應商管理係透過「供應商遴選」及「供應商永續管理」兩個面向，以促進上下游共同展開永續價值鏈發展。"
+              ]
+            }
+          },
+          {
+            "type": "StepProcess",
+            "props": {
+              "type": "supplyChain"
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "供應商鑑別與稽查"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司定期評量供應商提供的產品品質及其法令遵守情形，同時審查其是否有不誠信的經營行為與對環境 和社會的負面記錄，以避免與不誠信行為者以及違反企業社會責任政策的供應商進行交易，確保供應商提供穩定品質的電子產品予本公司進行銷售。基於至上為產品代理商之角色，故每年針對主要供應商所公開之訊息進行更新管理，同時本公司亦會要求供應商簽署「人權、環境永續暨誠信經營承諾書」，期許與供應商一起提升產業競爭力。"
+              ]
+            }
+          },
+          {
+            "type": "Table",
+            "props": {
+              "headers": [
+                "認證項目",
+                "SAMSUNG",
+                "瀚宇彩晶(股)公司",
+                "聯發科技(股)公司"
+              ],
+              "rows": [
+                [
+                  { "content": "RBA 責任商業聯盟行為準則" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "AEO安全認證優質企業" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO 14064-1溫室氣體排放查證" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO 14067碳足跡" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": false } }
+                ],
+                [
+                  { "content": "ISO 50001 能源管理系統" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO 14001 環璄管理系統" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO 45001 職業安全衛生管理" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO 9001 品質管理系統" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO 27001 資安管理認證" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO/IEC 27701 隱私資訊管理" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": false } }
+                ],
+                [
+                  { "content": "ISO 28000 供應鏈安全管理系統" },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "ISO14040、ISO 14044生命週期評估" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": false } }
+                ],
+                [
+                  { "content": "RoHS 有害物質限制指令" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "IECQ QC 080000 有害物質管理系統認證" },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": true } }
+                ],
+                [
+                  { "content": "WEEE 廢電器電子設備指令" },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": false } }
+                ],
+                [
+                  { "content": "水資源管理聯盟（AWS）白金級認證" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": false } }
+                ],
+                [
+                  { "content": "ISO 14064-3標準碳足跡驗證" },
+                  { "content": { "type": "dot", "value": true } },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": false } }
+                ],
+                [
+                  { "content": "SA8000 社會責任標準" },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": false } },
+                  { "content": { "type": "dot", "value": true } }
+                ]
+              ]
+            }
+          }
+
+       
+
+        ]
+      }
+    }
+  ]
+}

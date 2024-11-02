@@ -1,0 +1,184 @@
+{
+  "title": "多元化成長",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730431544/bg-diverse-growth_priqkz.webp",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "多元職涯發展"
+            }
+          },
+
+          {
+            "type": "ImageSwiper",
+            "props": {
+              "slides": [
+                {
+                  "title": "2023年團隊凝聚合動營教育訓練",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439765/2023%E5%9C%98%E9%9A%8A%E5%87%9D%E8%81%9A%E5%90%88%E5%8B%95%E7%87%9F%E6%95%99%E8%82%B2%E8%A8%93%E7%B7%B401_tfbr10.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439771/2023%E5%9C%98%E9%9A%8A%E5%87%9D%E8%81%9A%E5%90%88%E5%8B%95%E7%87%9F%E6%95%99%E8%82%B2%E8%A8%93%E7%B7%B402_h8oxkw.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439762/2023%E5%9C%98%E9%9A%8A%E5%87%9D%E8%81%9A%E5%90%88%E5%8B%95%E7%87%9F%E6%95%99%E8%82%B2%E8%A8%93%E7%B7%B403_kurdgh.webp"
+                  ]
+                },
+                {
+                  "title": "2023年心智圖法講座",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439798/2023%E5%BF%83%E6%99%BA%E5%9C%96%E6%B3%95%E8%AC%9B%E5%BA%A701_btsxff.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439794/2023%E5%BF%83%E6%99%BA%E5%9C%96%E6%B3%95%E8%AC%9B%E5%BA%A702_rgatil.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439791/2023%E5%BF%83%E6%99%BA%E5%9C%96%E6%B3%95%E8%AC%9B%E5%BA%A703_kdr5s2.webp"
+                  ]
+                },
+                {
+                  "title": "2023年職業安全講座",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439759/2023%E8%81%B7%E6%A5%AD%E5%AE%89%E5%85%A8%E8%AC%9B%E5%BA%A701_jpqtmd.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439755/2023%E8%81%B7%E6%A5%AD%E5%AE%89%E5%85%A8%E8%AC%9B%E5%BA%A702_smztim.webp"
+                  ]
+                },
+                {
+                  "title": "2023年資安講座",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439777/2023%E8%B3%87%E5%AE%89%E8%AC%9B%E5%BA%A701_migdjj.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439774/2023%E8%B3%87%E5%AE%89%E8%AC%9B%E5%BA%A702_jp3lkw.webp"
+                  ]
+                },
+                {
+                  "title": "2023年高效簡報技巧講座",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439787/2023%E9%AB%98%E6%95%88%E7%B0%A1%E5%A0%B1%E6%8A%80%E5%B7%A7%E8%AC%9B%E5%BA%A701_ss2ald.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439784/2023%E9%AB%98%E6%95%88%E7%B0%A1%E5%A0%B1%E6%8A%80%E5%B7%A7%E8%AC%9B%E5%BA%A702_y6zuxv.webp"
+                  ]
+                },
+                {
+                  "title": "2022年區塊鏈與密碼貨幣課程",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730438324/%E5%8D%80%E5%A1%8A%E9%8F%88%E8%88%87%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3%E8%AA%B2%E7%A8%8B01_vfanml.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730438323/%E5%8D%80%E5%A1%8A%E9%8F%88%E8%88%87%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3%E8%AA%B2%E7%A8%8B02_svk0he.webp"
+                  ]
+                },
+                {
+                  "title": "2022年策略式銷售與談判成交技巧課程",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730438333/%E7%AD%96%E7%95%A5%E5%BC%8F%E9%8A%B7%E5%94%AE%E8%88%87%E8%AB%87%E5%88%A4%E6%88%90%E4%BA%A4%E6%8A%80%E5%B7%A7%E8%AA%B2%E7%A8%8B01_xsyrrp.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730438330/%E7%AD%96%E7%95%A5%E5%BC%8F%E9%8A%B7%E5%94%AE%E8%88%87%E8%AB%87%E5%88%A4%E6%88%90%E4%BA%A4%E6%8A%80%E5%B7%A7%E8%AA%B2%E7%A8%8B02_ehakej.webp"
+                  ]
+                },
+                {
+                  "title": "2022年誠信經營及防範內線交易",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439753/2022%E8%AA%A0%E4%BF%A1%E7%B6%93%E7%87%9F%E5%8F%8A%E9%98%B2%E7%AF%84%E5%85%A7%E7%B7%9A%E4%BA%A4%E6%98%9301_hdrumt.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730439801/2022%E8%AA%A0%E4%BF%A1%E7%B6%93%E7%87%9F%E5%8F%8A%E9%98%B2%E7%AF%84%E5%85%A7%E7%B7%9A%E4%BA%A4%E6%98%9302_pjsmqi.webp"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司十分重視員工之培訓和學習計劃，期望能和員工以長遠的目標共同成長，因此提供職業規劃和發展計劃，協助員工確立長期職業發展目標和方向。提供內部調動和轉職機會，讓員工可以在公司內部尋找新的職業發展機會，包括跨部門調動、工作輪調、跨國調動等。",
+                "倘若當公司面臨需要進行組織重組或裁員時，公司會提供適應性培訓和協助，如職業轉型培訓及就業輔導等，確保員工能夠順利過渡到新的工作環境中。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "多元訓練課程"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "人才培育制度不僅關注教育訓練本身，也關注員工的職業發展和福利。因此，相關政策通常包括薪資福利、職業發展計劃、工作彈性、員工關懷和支持等方面，以確保員工在學習和發展方面得到全面的支持和保障，以貫徹「人才為本」的企業文化。",
+                "秉持「攜手學習，共同成長」的人才培育理念，本公司注重員工的專業技能和職業發展，提供多元化的內部培訓課程，包括專業技能培訓、管理培訓、語言培訓和高階主管訓練等，針對管理階層及一般員工的不同能力及專業需求設計各類課程；同時積極鼓勵員工參加外部專業課程和研討會等進修，幫助員工增加知識和技能。2023年度各層級員工受訓時數共計3,527小時。",
+                "訓練的項目將根據員工的角色和職能進行定制化安排。這可能包括技術培訓、行業認證課程、專業發展、領導力培訓和跨部門合作等。同時，還將加強跨文化溝通、解決問題能力和創新思維等軟實力的培養，以提升員工的總體素質。",
+                "為避免教育訓練實施流於形式，或與企業目標脫節，故以企業營運目標及發展策略為藍本，以內部同仁實際需求為導向，提供人才養成及教育諮詢等專業服務，透過各項教育訓練活動的推展，塑造公司為不斷創新改善的「學習型組織」。",
+                "未來訓練計劃將朝向多方面發展，包括技術、專業知識、領導力和軟技能等方面。重點將放在新興技術、數據分析、數字化轉型等領域，以滿足組織未來發展的需求。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "人才培育"
+            }
+          },
+          {
+            "type": "H2",
+            "props": {
+              "text": "培育層次"
+            }
+          },
+          {
+            "type": "StepProcess",
+            "props":{
+                "type":"diverseGrowthCultivation"
+            }
+          },
+          {
+            "type": "H2",
+            "props": {
+              "text": "課程類別"
+            }
+          },
+          {
+            "type": "StepProcess",
+            "props":{
+                "type":"diverseGrowthLecture"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+            {
+              "type": "H1",
+              "props": {
+                "text": "年度執行情形報告"
+              }
+            },
+          {
+            "type": "DocDownload",
+            "props": {
+              "text": "2023年員工受訓情形報告",
+              "href": "http://www.supreme.com.tw/File/113%E5%B9%B4Q2%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+            }
+          },
+          {
+            "type": "DocDownload",
+            "props": {
+              "text": "2022年員工受訓情形報告",
+              "href": "http://www.supreme.com.tw/File/113%E5%B9%B4Q2%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

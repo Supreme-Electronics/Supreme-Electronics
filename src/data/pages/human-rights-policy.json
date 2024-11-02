@@ -1,0 +1,136 @@
+{
+    "title": "人權政策",
+    "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447633/bg-human-rights-policy_zvnlxs.webp",
+    "components": [
+      {
+        "type": "Section",
+        "props": {
+          "components": [
+            {
+              "type": "H1",
+              "props": {
+                "text": "健康職場認證"
+              }
+            },
+            {
+              "type": "P",
+              "props": {
+                "paragraphs": [
+                  "健康職場認證是基於世界衛生組織的「職場周全健康促進推動模式」，強調整合「生理工作環境」、「社會心理工作環境」、「個人健康資源」，以及「企業社區參與」的四大層面。本公司於2023年新申請健康職場標章審核通過，我們承諾提供完善的健康資源，不斷改善生理及社會心理工作環境，同時擴及員工眷屬、社區，實踐企業社會責任。"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Section",
+        "props": {
+          "components": [
+            {
+              "type": "H1",
+              "props": {
+                "text": "健檢與醫護服務"
+              }
+            },
+            {
+              "type": "ImageSwiper",
+              "props": {
+                "slides": [
+                  {
+                    "title": "醫護諮詢",
+                    "images": [
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447146/%E9%86%AB%E8%AD%B7%E8%AB%AE%E8%A9%A201_gsr5fq.webp",
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447121/%E9%86%AB%E8%AD%B7%E8%AB%AE%E8%A9%A202_mnaaw1.webp"
+                    ]
+                  },
+                  {
+                    "title": "員工健康檢查",
+                    "images": [
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447137/%E5%93%A1%E5%B7%A5%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A501_dqe6wo.webp",
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447141/%E5%93%A1%E5%B7%A5%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A502_zmz6a5.webp"
+                    ]
+                  },
+                  {
+                    "title": "自律神經健康講座",
+                    "images": [
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447124/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A701_gn2cg3.webp",
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447128/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A702_tqxln2.webp",
+                      "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447133/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A703_al2bui.webp"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+          "type": "Section",
+          "props": {
+            "components": [
+              {
+                "type": "H1",
+                "props": {
+                  "text": "運動社團"
+                }
+              },
+              {
+                "type": "ImageSwiper",
+                "props": {
+                  "slides": [
+                    {
+                      "title": "桌球社",
+                      "images": [
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447146/%E9%86%AB%E8%AD%B7%E8%AB%AE%E8%A9%A201_gsr5fq.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447121/%E9%86%AB%E8%AD%B7%E8%AB%AE%E8%A9%A202_mnaaw1.webp"
+                      ]
+                    },
+                    {
+                      "title": "籃球社",
+                      "images": [
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447137/%E5%93%A1%E5%B7%A5%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A501_dqe6wo.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447141/%E5%93%A1%E5%B7%A5%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A502_zmz6a5.webp"
+                      ]
+                    },
+                    {
+                      "title": "羽球社",
+                      "images": [
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447124/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A701_gn2cg3.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447128/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A702_tqxln2.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447133/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A703_al2bui.webp"
+                      ]
+                    },
+                    {
+                      "title": "路跑社",
+                      "images": [
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447124/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A701_gn2cg3.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447128/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A702_tqxln2.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447133/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A703_al2bui.webp"
+                      ]
+                    },
+                    {
+                      "title": "高爾夫球社",
+                      "images": [
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447124/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A701_gn2cg3.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447128/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A702_tqxln2.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447133/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A703_al2bui.webp"
+                      ]
+                    },
+                    {
+                      "title": "桌遊社",
+                      "images": [
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447124/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A701_gn2cg3.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447128/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A702_tqxln2.webp",
+                        "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447133/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A703_al2bui.webp"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+    ]
+  }
+  

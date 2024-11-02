@@ -1,13 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+TC:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Wix Madefor Display', 'Noto Sans TC', sans-serif;
+  background-color: #F5F5F5;
+  overflow-x:hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.content-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (min-width: 428px) { /* Breakpoint-sm */
+  .content-container {
+    max-width: 420px; 
+    padding-left: 1rem;
+    padding-right: 1rem;/* Max-width-sm */
+  }
+}
+@media (min-width: 576px) { /* Breakpoint-md */
+  .content-container {
+    max-width: 540px; /* Max-width-md */
+  }
+}
+@media (min-width: 768px) { /* Breakpoint-lg */
+  .content-container {
+    max-width: 728px; /* Max-width-lg */
+  }
+}
+@media (min-width: 992px) { /* Breakpoint-xl */
+  .content-container {
+    max-width: 960px; /* Max-width-xl */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 1179px) { /* Breakpoint-2xl */
+  .content-container {
+    max-width: 1114px; /* Max-width-2xl */
+  }
+}
+@media (min-width: 1400px) { /* Breakpoint-3xl */
+  .content-container {
+    max-width: 1352px; /* Max-width-3xl */
+  }
+}
+@media (min-width: 1800px) { /* Breakpoint-4xl */
+  .content-container {
+    max-width: 1550px; /* Max-width-4xl */
+  }
+}
+@media (min-width: 1921px) { /* Breakpoint-5xl */
+  .content-container {
+    max-width: 1702px; /* Max-width-5xl */
+  }
+}
+
+li::marker {
+  color: #FF8D50;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #FF8D50 !important;
+}
+
+
+
+/* Fade-in-up animation */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.expand-line {
+  width: 5px; 
+  transition: width 2s ease;
+  transition-delay: 0.3s;
+}
+
+.expand-line.is-visible {
+  width: 100%;
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.goal-item {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none; /* 隱藏上下箭頭 */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; /* 控制 scrollbar 的寬度 */
+  margin-left: 8px; /* 調整 scrollbar 與左側內容的距離 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ff8500; /* 調整 scrollbar 的顏色 */
+  border-radius: 8px; /* 增加圓角 */
 }

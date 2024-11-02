@@ -1,0 +1,193 @@
+[
+    {
+      "title": "common.latestNews",
+      "link": "/news"
+    },
+    {
+      "title": "common.society",
+      "link": "/society"
+    },
+    {
+      "title": "common.sustainableManagement",
+      "link": "/sustainability",
+      "dropdown": [
+        {
+          "title": "common.messageFromManagement",
+          "link": "/sustainability/message-from-chairman"
+        },
+        {
+          "title": "common.corporateGovernance",
+          "link": "/sustainability/governance"
+        },
+        {
+          "title": "common.integrityManagement",
+          "link": "/sustainability/ethical-management"
+        },
+        {
+          "title": "common.boardOfDirectors",
+          "link": "/sustainability/board"
+        },
+        {
+          "title": "common.functionalCommittee",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.compensationCommittee",
+              "link": "/sustainability/compensation-committee"
+            },
+            {
+              "title": "common.auditCommittee",
+              "link": "/sustainability/audit-committee"
+            },
+            {
+              "title": "common.sustainableDevelopmentCommittee",
+              "link": "/sustainability/sustainbility-committee"
+            }
+          ]
+        },
+        {
+          "title": "common.stakeholderSection",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.stakeholderMeetings",
+              "link": "/sustainability/stakeholder-engagement"
+            },
+            {
+              "title": "common.materialTopics",
+              "link": "/sustainability/key-topics"
+            },
+            {
+              "title": "common.stakeholderQuestionnaire",
+              "link": "/sustainability/survey"
+            }
+          ]
+        },
+        {
+          "title": "common.technologyRisk",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.intellectualProperty",
+              "link": "/sustainability/intellectual-property"
+            },
+            {
+              "title": "common.riskManagement",
+              "link": "/sustainability/risk-management"
+            },
+            {
+              "title": "common.informationSecurityManagement",
+              "link": "/sustainability/information-security"
+            }
+          ]
+        },
+        {
+          "title": "common.sustainableSupplyChain",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.supplyChainManagement",
+              "link": "/sustainability/supply-chain"
+            },
+            {
+              "title": "common.productAndCustomerService",
+              "link": "/sustainability/product-customer-service"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "common.happyEnterprise",
+      "link": "/enterprise",
+      "dropdown": [
+        {
+          "title": "common.humanResourcesDistribution",
+          "link": "/enterprise/hr-distribution"
+        },
+        {
+          "title": "common.employeePolicy",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.welfareAndCare",
+              "link": "/enterprise/welfare-care"
+            },
+            {
+              "title": "common.employeeRightsProtection",
+              "link": "/enterprise/rights-protection"
+            }
+          ]
+        },
+        {
+          "title": "common.talentDevelopment",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.diversifiedGrowth",
+              "link": "/enterprise/diverse-growth"
+            },
+            {
+              "title": "common.performanceEvaluationAndCompensation",
+              "link": "/enterprise/performance-compensation"
+            }
+          ]
+        },
+        {
+          "title": "common.friendlyWorkplace",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.occupationalSafetyAndHealth",
+              "link": "/enterprise/occupational-safety"
+            },
+            {
+              "title": "common.healthyWorkplace",
+              "link": "/enterprise/healthy-workplace"
+            },
+            {
+              "title": "common.humanRightsPolicy",
+              "link": "/enterprise/human-rights-policy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "common.sustainableCoexistence",
+      "link": "/symbiosis",
+      "dropdown": [
+        {
+          "title": "common.climateChangeStrategy",
+          "link": "/symbiosis/climate-change"
+        },
+        {
+          "title": "common.greenhouseGasAndActionPlan",
+          "link": "/symbiosis/greenhouse-gases"
+        },
+        {
+          "title": "common.energyAndWasteManagement",
+          "link": "#",
+          "children": [
+            {
+              "title": "common.energyManagement",
+              "link": "/symbiosis/energy-management"
+            },
+            {
+              "title": "common.wasteManagement",
+              "link": "/symbiosis/waste-management"
+            },
+            {
+              "title": "common.waterResourceManagement",
+              "link": "/symbiosis/water-management"
+            }
+          ]
+        },
+        {
+          "title": "common.greenEnergyLowCarbonPlan",
+          "link": "/symbiosis/green-energy"
+        }
+      ]
+    }
+  ]
+  
