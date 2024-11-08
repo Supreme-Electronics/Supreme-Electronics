@@ -6,7 +6,7 @@ interface SplitProps {
 }
 
 const Split: React.FC<SplitProps> = ({ leftChildren, rightChildren }) => (
-  <div className="grid md:grid-cols-2 md:gap-24 bg-gray-50 rounded-xl py-4 px-8">
+  <div className="grid md:grid-cols-2 md:gap-24 bg-gray-50 rounded-xl pt-4 pb-12 px-8">
     <div className="">
       {leftChildren}
     </div>

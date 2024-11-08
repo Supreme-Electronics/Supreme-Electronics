@@ -1,48 +1,24 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { IconDefinition, library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faGift,
-  faHandHoldingUsd,
-  faShieldAlt,
-  faSmile,
-  faUmbrellaBeach,
-  faTableTennisPaddleBall,
-  faBasketball,
-  faFeather,
-  faPersonRunning,
-  faGolfBall,
-  faChessRook,
-} from "@fortawesome/pro-light-svg-icons";
+import iconMap from "../utils/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const iconMap: Record<string, IconDefinition> = {
-  shield: faShieldAlt,
-  gift: faGift,
-  hodingUsd: faHandHoldingUsd,
-  smile: faSmile,
-  umbrellaBeach: faUmbrellaBeach,
-  faTableTennisPaddleBall: faTableTennisPaddleBall,
-  faBasketball:faBasketball,
-  faFeather:faFeather,
-  faPersonRunning:faPersonRunning,
-  faGolfBall:faGolfBall,
-  faChessRook:faChessRook
-};
-
 interface TabProps {
   categories: string[];
   children: React.ReactNode;
-  tabColor?: string;
+  primaryColor?: string;
   icons?: string[];
+  hover?: boolean;
+  onCategoryChange ?:(category: string) => void;
 }
 
 const Tab: React.FC<TabProps> = ({
   categories,
   children,
-  tabColor = "#FF8D50",
+  primaryColor = "#FF8D50",
   icons = [],
+  hover = true,
+  onCategoryChange,
 }) => {
   const [selectedCategory, setSelectedCategory] = useState(() => {
     const searchParams = new URLSearchParams(window.location.search);
@@ -62,22 +38,23 @@ const Tab: React.FC<TabProps> = ({
   const handleTabClick = (category: string) => {
     setSelectedCategory(category);
     navigate(`?`, { replace: true });
+    if (onCategoryChange) onCategoryChange(category);
   };
 
   return (
-    <div className="mt-12">
-      <div className="flex border-b-2 border-gray-300 justify-between">
+    <div className="mt-12 ">
+      <div className="flex border-b-2 border-gray-300 justify-between overflow-x-auto overflow-y-hidden">
         {categories.map((category, index) => (
           <div
             key={category}
             onClick={() => handleTabClick(category)}
-            className={`relative text-center w-full px-2 lg:px-6 font-semibold text-sm xl:text-lg tracking-wide py-3 cursor-pointer duration-300 hover:bg-[#f0f0f0] hover:shadow  rounded-t-xl hover:text-orange group  ${
+            className={`relative text-center w-full px-2 lg:px-6 font-semibold text-sm xl:text-lg tracking-wide py-3 cursor-pointer duration-300  ${hover&&'hover:bg-[#f0f0f0]'} hover:shadow  rounded-t-xl group  ${
               selectedCategory === category
                 ? "text-[tabColor]"
                 : "text-gray-300"
             }`}
             style={{
-              color: selectedCategory === category ? tabColor : "",
+              color: selectedCategory === category ? primaryColor : "",
             }}
           >
             <div className="flex flex-col gap-5">
@@ -90,13 +67,13 @@ const Tab: React.FC<TabProps> = ({
               <span className="relative z-10 ">{category}</span>
             </div>
             <span
-              className={`absolute -bottom-[2px] left-0 w-full h-[4px] border-box duration-300 group-hover:bg-orange ${
+              className={`absolute -bottom-[2px] left-0 w-full h-[4px] border-box duration-300  ${
                 selectedCategory === category
                   ? "bg-[tabColor]"
                   : "bg-transparent"
               }`}
               style={{
-                backgroundColor: selectedCategory === category ? tabColor : "",
+                backgroundColor: selectedCategory === category ? primaryColor : "",
               }}
             />
           </div>
@@ -117,6 +94,7 @@ const Tab: React.FC<TabProps> = ({
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 20 }}
                 transition={{ duration: 0.3 }}
+                className=""
               >
                 {filteredChild}
               </motion.div>

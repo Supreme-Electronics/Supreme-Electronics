@@ -1,0 +1,33 @@
+
+{
+  "title": "Stakeholder Questionnaire",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730388552/bg-survey_sjavxj.webp",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Stakeholder ESG Issue Survey of Supreme Electronics Co., Ltd."
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "To enhance stakeholders' understanding of Supreme Electronics Co., Ltd.'s various practices and achievements in social responsibility and sustainable development, we have been compiling and publishing an annual Sustainability Report (ESG Report) since 2022. This survey’s questions are designed by our company in accordance with GRI and UN Sustainable Management Indicators to ensure effective communication with stakeholders.",
+                "We sincerely invite you to share your genuine thoughts, provide valuable feedback, and help us understand the topics you care about, serving as essential references for improving our information disclosure and sustainable development governance practices.",
+                "This survey is solely for Supreme Electronics Co., Ltd.'s internal analysis of stakeholder concerns, and any personal information provided will not be disclosed. Please feel free to complete it with confidence."
+              ]
+            }
+          },
+          {
+            "type": "ESGSurvey"
+          }
+        ]
+      }
+    }
+  ]
+}

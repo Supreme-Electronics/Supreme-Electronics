@@ -1,0 +1,218 @@
+{
+  "title": "社會共榮",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730808333/%E7%A4%BE%E6%9C%83%E5%85%B1%E6%A6%AE_pylctl.webp",
+  "primaryColor": "#FF8D50",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "包容 和諧 凝聚"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司長久以來關心環境保育、社會服務、教育文化、體育健康等各式社會議題，積極參與社 會公益活動以履行社會責任，除捐贈資金或物資，亦將公益熱忱轉化為實際行動，將溫馨關懷回 饋予社會。參加「台北內湖科技園區發展協會」、「台北市電子零件商業同業公會」等機構，關注 環境保育、社區關懷、消費者權益、人權、安全衛生與其他社會議題等，並對各利害關係人盡應 盡及承擔不同責任，另透過永續發展執行小組-社會關懷組持續規劃推動公司相關社會公益活動。"
+              ]
+            }
+          },
+          {
+            "type": "StatDisplay",
+            "props": {
+              "stats": [
+                {
+                  "text": "2023 年度捐款贊助總金額",
+                  "num": 3636000,
+                  "suffix": "元"
+                },
+                {
+                  "text": "淨灘活動清除海洋廢棄物",
+                  "num": 37.5,
+                  "suffix": "公斤"
+                },
+                {
+                  "text": "二場愛心捐血活動捐血",
+                  "num": 495,
+                  "suffix": "袋"
+                }
+              ]
+            }
+          },
+
+          {
+            "type": "OverviewGrid",
+            "props": {
+              "centerText": "員工至上",
+              "sections": [
+                {
+                  "title": "教育文化、體育發展",
+                  "description": "種子是萬物的根基，至上重視培育，以身體力行打造優質教育",
+                  "icon": "faVolleyball",
+                  "iconBackgroundColor": "#EBF2FC"
+                },
+                {
+                  "title": "社會關懷、永續環境",
+                  "description": "本著關懷社會、愛護地球的理念，維護生物多樣化",
+                  "icon": "faEarthAsia",
+                  "iconBackgroundColor": "#EBF2FC"
+                },
+                {
+                  "title": "健康醫療、公益服務",
+                  "description": "重視全民身心健康福祉及社會公益，化實際行動做出有效益的貢獻",
+                  "icon": "faUserDoctor",
+                  "iconBackgroundColor": "#EBF2FC"
+                },
+                {
+                  "title": "社區參與、永續發展",
+                  "description": "服務社區提升社會幸福感，關注國際重大議題，落實企業責任",
+                  "icon": "faFaceSmilingHands",
+                  "iconBackgroundColor": "#EBF2FC"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "年度活動"
+            }
+          },
+          {
+            "type": "NewsList",
+            "props": {
+              "isYearFilter": "true",
+              "selectType": "永續消息"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "執行情形"
+            }
+          },
+
+          {
+            "type": "Tab",
+            "props": {
+              "categories": [
+                "2023",
+                "2022",
+                "2021",
+                "2020",
+                "2019",
+                "2018",
+                "2017",
+                "2016",
+                "2015"
+              ],
+              "tabs": {
+                "2023": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2023年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716422/2023_Society_cbwiit.pdf"
+                    }
+                  }
+                ],
+                "2022": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2022年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716422/2022_Society_k6jugb.pdf"
+                    }
+                  }
+                ],
+                "2021": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2021年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716422/2021_Society_dsmhdv.pdf"
+                    }
+                  }
+                ],
+                "2020": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2020年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716422/2020_Society_ihrnqq.pdf"
+                    }
+                  }
+                ],
+                "2019": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2019年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716422/2019_Society_c7om86.pdf"
+                    }
+                  }
+                ],
+                "2018": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2018年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716422/2018_Society_yctkja.pdf"
+                    }
+                  }
+                ],
+                "2017": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2017年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716423/2017_Society_d8xsch.pdf"
+                    }
+                  }
+                ],
+                "2016": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2016年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716423/2016_Society_xwcc9u.pdf"
+                    }
+                  }
+                ],
+                "2015": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2015年執行情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730716423/2015_Society_ewtb6r.pdf"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

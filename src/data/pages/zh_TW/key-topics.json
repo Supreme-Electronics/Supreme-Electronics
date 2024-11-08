@@ -1,0 +1,393 @@
+{
+  "title": "重大主題",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730352575/bg-key-topics_xwpcg4.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "重大主題鑑別"
+            }
+          },
+
+
+
+          {
+            "type": "StepProcess",
+            "props": {
+              "steps": [
+                {
+                  "icon": "faComment",
+                  "step": "Step 1",
+                  "title": "鑑別溝通對象",
+                  "text": "依循AA1000SES利害關係人議合原則 （ AA1000 Stakeholder EngagementStandard）的五個面向：影響力、關注度、責任、依賴度和多元觀點，向至上電子全體同仁(含管理層) 發送利害關係人鑑別問卷，統計結果經公司核定後，依重要性歸類為6類利害關係人群體：客戶、員工、股東/投資人、供應商與承攬商、政府與主管機關、非營利組織/社區。"
+                },
+                {
+                  "icon": "faRecycle",
+                  "step": "Step 2",
+                  "title": "蒐集永續議題",
+                  "text": "參考GRI、SASB、TCFD等國際永續準則、聯合國永續發展目標（SDGs）及國內外同業永續報告書與產業關注之主題，由永續發展委員會-執行小組進行各項議題之討論與鑑別，並諮詢外部顧問，彙整出至上電子2023年永續議題清單，共23項永續議題。"
+                },
+                {
+                  "icon": "faBalanceScale",
+                  "step": "Step 3",
+                  "title": "評估衝擊",
+                  "text": "由內部管理階層對公司的利害關係人、內部單位主管及高層進行《永續議題衝擊評估問卷調查》，針對各項永續議題對經濟、環境和社會造成之實際及潛在的正負面衝擊之發生機率與規模進行評估。負面衝擊：依嚴重性、發生可能性進行評估，並考量議題的負面人權衝擊。正面衝擊：依影響規模與範疇大小、發生可能性進行評估。"
+                },
+                {
+                  "icon": "faExclamationTriangle",
+                  "step": "Step 4",
+                  "title": "評估衝擊",
+                  "text": "整問卷調查結果，正面與負面衝擊得分加總，依分數高低將各項議題按照衝擊顯著性排序。內部管理階層討論排序結果，進行等權分析，考量產業重大議題、國際趨勢、並參考外部顧問意見，設定重大主題門檻值，初步擬定「經營績效」、「資訊安全」、「誠信經營」、「產品與客戶服務」、「風險管理」、「氣候變遷對策及溫室氣體管理/能源管理」、「公司治理」、「人才培育與留任」、「勞雇/勞資關係」，共9項永續議題為2023年度重大主題，並呈報最高治理單位-董事會。"
+                },
+                {
+                  "icon": "faEye",
+                  "step": "Step 5",
+                  "title": "評估衝擊",
+                  "text": "董事會再次檢視、檢驗所鑑別之重大主題及門檻標準之合適性，確認應優先報導之重大主題未有疏漏、不足處，以確保其完整、包容、宏觀性及與本公司永續發展策略的一致程度。董事會核准確立上述9項重大主題，內部管理階層進一步討論確認該等重大主題對於本公司內外應考量之邊界範圍，確保重要的永續資訊已於報告書中完整揭露。內部管理階層依據重大主題報導要求於本報告書說明相關因應策略、管理行動、指標及目標等內容，確保報告書允當且忠實表達公司ESG落實情形。"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "年度重大主題衝擊評估結果"
+            }
+          },
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["負面衝擊矩陣", "正面衝擊矩陣"],
+              "tabs": {
+                "負面衝擊矩陣": [
+                  {
+                    "type": "KeyTopicsMatrix",
+                    "props": {
+                      "layers": [
+                        {
+                          "url": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730366425/key-topic-matrix-n-1_wfgmjh.svg",
+                          "label": "首要",
+                          "color": "#ff5050"
+                        },
+                        {
+                          "url": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730366424/key-topic-matrix-n-2_rbheh9.svg",
+                          "label": "次要",
+                          "color": "#ff8d50"
+                        },
+                        {
+                          "url": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730366423/key-topic-matrix-n-3_uozccr.svg",
+                          "label": "持續追蹤",
+                          "color": "#ffbe50"
+                        }
+                      ]
+                    }
+                  },
+
+                  {
+                    "type": "KeyTopicsList",
+                    "props": {
+                      "topics": [
+                        {
+                          "number": 1,
+                          "description": "經營績效",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 2,
+                          "description": "資訊安全",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 4,
+                          "description": "風險管理",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 5,
+                          "description": "人才培育與留任",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 6,
+                          "description": "產品與客戶服務",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 8,
+                          "description": "公司治理",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 3,
+                          "description": "誠信經營",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 7,
+                          "description": "勞資/勞雇關係",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 9,
+                          "description": "氣候變遷對策及溫室氣體管理/能源管理",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 10,
+                          "description": "綠色產品服務",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 12,
+                          "description": "永續供應鏈",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 13,
+                          "description": "採購實務與管理",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 14,
+                          "description": "行銷與標示",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 15,
+                          "description": "員工關懷與勞動保護",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 17,
+                          "description": "關稅壁壘",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 18,
+                          "description": "數位轉型",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 23,
+                          "description": "人權",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 11,
+                          "description": "職業安全衛生",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 16,
+                          "description": "社會公益與參與",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 19,
+                          "description": "綠色營運管理",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 20,
+                          "description": "廢棄物管理",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 21,
+                          "description": "水資源管理",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 22,
+                          "description": "生物多樣性",
+                          "category": "monitor"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "正面衝擊矩陣": [
+                  {
+                    "type": "KeyTopicsMatrix",
+                    "props": {
+                      "layers": [
+                        {
+                          "url": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730376613/key-topic-matrix-p-1_csgcyw.svg",
+                          "label": "首要",
+                          "color": "#ff5050"
+                        },
+                        {
+                          "url": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730376612/key-topic-matrix-p-2_cqgxl6.svg",
+                          "label": "次要",
+                          "color": "#ff8d50"
+                        },
+                        {
+                          "url": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730376611/key-topic-matrix-p-3_fubkne.svg",
+                          "label": "持續追蹤",
+                          "color": "#ffbe50"
+                        }
+                      ]
+                    }
+                  },
+
+                  {
+                    "type": "KeyTopicsList",
+                    "props": {
+                      "topics": [
+                        {
+                          "number": 1,
+                          "description": "經營績效",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 2,
+                          "description": "資訊安全",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 4,
+                          "description": "風險管理",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 5,
+                          "description": "人才培育與留任",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 6,
+                          "description": "產品與客戶服務",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 8,
+                          "description": "公司治理",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 3,
+                          "description": "誠信經營",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 7,
+                          "description": "勞資/勞雇關係",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 9,
+                          "description": "氣候變遷對策及溫室氣體管理/能源管理",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 10,
+                          "description": "綠色產品服務",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 12,
+                          "description": "永續供應鏈",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 13,
+                          "description": "採購實務與管理",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 14,
+                          "description": "行銷與標示",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 15,
+                          "description": "員工關懷與勞動保護",
+                          "category": "primary"
+                        },
+                        {
+                          "number": 17,
+                          "description": "關稅壁壘",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 18,
+                          "description": "數位轉型",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 23,
+                          "description": "人權",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 11,
+                          "description": "職業安全衛生",
+                          "category": "secondary"
+                        },
+                        {
+                          "number": 16,
+                          "description": "社會公益與參與",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 19,
+                          "description": "綠色營運管理",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 20,
+                          "description": "廢棄物管理",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 21,
+                          "description": "水資源管理",
+                          "category": "monitor"
+                        },
+                        {
+                          "number": 22,
+                          "description": "生物多樣性",
+                          "category": "monitor"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "重大主題價值鏈邊界"
+            }
+          },
+
+          {
+            "type": "ValueChainTable"
+          }
+        ]
+      }
+    }
+  ]
+}

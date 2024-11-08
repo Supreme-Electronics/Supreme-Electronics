@@ -1,13 +1,39 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageRenderer from "./components/render/PageRenderer";
 import MainLayout from "./layouts/MainLayout";
+import NewsDetail from "./components/ui/NewsDetail";
+import LandingPage from "./pages";
+import ScrollToTop from "./components/utils/scrollToTop";
 import './i18n'
-
+import { useEffect } from 'react';
+import i18n from "./i18n";
 function App() {
+  useEffect(() => {
+    i18n.on('languageChanged', (lng) => {
+      if (lng === 'en') {
+        document.body.classList.add('text-left');
+        document.body.classList.remove('text-justify');
+      } else {
+        document.body.classList.remove('text-left');
+        document.body.classList.add('text-justify');
+      }
+    });
+
+    return () => {
+      i18n.off('languageChanged');
+    };
+  }, []);
+
+
   return (
     <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
+        <Route path="" element={<LandingPage />} />
+        <Route path="/news/:id" element={<NewsDetail />} />
+        <Route path="news" element={<PageRenderer pageName="news" />} />
+        <Route path="download" element={<PageRenderer pageName="download" />} />
         <Route path="society" element={<PageRenderer pageName="society" />} />
         <Route path="sustainability" element={<PageRenderer pageName="sustainability" />} />
         <Route path="sustainability/message-from-chairman" element={<PageRenderer pageName="message-from-chairman" />} />

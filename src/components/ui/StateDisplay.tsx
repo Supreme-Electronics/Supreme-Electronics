@@ -47,21 +47,21 @@ interface StatDisplayProps {
     text: string;
     num: number;
     suffix: string;
-    color?: string;
     describtion?: string;
   }>;
+  primaryColor?: string;
 }
 
-const StatDisplay: React.FC<StatDisplayProps> = ({ stats }) => {
+const StatDisplay: React.FC<StatDisplayProps> = ({ stats, primaryColor = '#FF8D50' }) => {
   return (
-    <div className="bg-gray-50 rounded-[30px] flex flex-col xl:flex-row justify-between px-12 py-8 items-center ">
+    <div className="bg-gray-50 rounded-[30px] flex flex-col xl:flex-row justify-between px-12 py-8 items-center">
       {stats.map((stat, index) => (
         <React.Fragment key={index}>
-          <div className="xl:flex justify-center w-full  border-b-[1px] py-4 xl:border-none xl:py-0 xl:w-fit">
-            <div className="text-left text-[16px] text-[#5b5b5b] w-full">
+          <div className="xl:flex justify-center w-full border-b-[1px] py-4 xl:border-none xl:py-0 xl:w-fit max-w-[200px]">
+            <div className="text-left  text-[16px] text-[#5b5b5b] w-full">
               <p
                 className="text-[32px] font-semibold"
-                style={{ color: stat.color || '#555555' }}
+                style={{ color: primaryColor }}
               >
                 {stat.describtion ? (
                   stat.describtion
@@ -70,7 +70,7 @@ const StatDisplay: React.FC<StatDisplayProps> = ({ stats }) => {
                     num={stat.num}
                     suffix={stat.suffix}
                     decimals={stat.num % 1 !== 0 ? 1 : 0}
-                    color={stat.color}
+                    color={primaryColor}
                   />
                 )}
               </p>
@@ -88,3 +88,4 @@ const StatDisplay: React.FC<StatDisplayProps> = ({ stats }) => {
 };
 
 export default StatDisplay;
+

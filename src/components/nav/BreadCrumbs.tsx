@@ -41,8 +41,8 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
   const breadcrumbs = findBreadcrumbs(items, pathnames);
 
   return (
-    <nav aria-label="breadcrumb ">
-      <ol className="flex">
+    <nav aria-label="breadcrum">
+      <ol className="hidden md:flex">
         <li className='h-[35px] w-[35px] duration-300 flex items-center justify-center rounded-full   hover:text-orange'>
           <Link to="/"><FontAwesomeIcon icon={faHouse} className=' ' /></Link>
         </li>

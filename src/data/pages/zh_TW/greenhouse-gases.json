@@ -1,0 +1,300 @@
+{
+  "title": "溫室氣體＆行動方案",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730624485/bg-greenhouse-gases_vqmzrr.webp",
+  "primaryColor": "#409ea1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "溫室氣體排放"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "2023 年度依循溫室氣體盤查議定書(GHG Protocol)指引進行盤查作業，溫室氣體總排放量(範疇一＋範疇二)為 299.712 公噸 CO2e，主要來自於範疇二之電力排放，占比為 93.51%，其餘溫室氣體排放量來源為範疇一之公務車燃料使用、冷媒、滅火器及化糞池，占比為 6.49%。與 2022 年相比呈現微幅增加情形，主要係因營收成長人員相對增加，為因應實質需求，資訊部門擴增伺服器等硬體設備，以致用電量增加。",
+                "為了瞭解企業營運過程中，價值鏈上下游活動的碳排放，針對範疇三進行自主性盤查，期望透過完整的溫室氣體盤查作業，鑑別出最顯著的排放源，為溫室氣體減量與氣候轉型策略提供基礎數據。2023 年範疇三溫室氣體總量為 1,289.207 公噸 CO2e，排放源項目包含:與燃料和能源相關活動的排放(未涵蓋在範疇一或二)、運輸產生之間接溫室氣體排放(含「貨物上/ 下游運輸與分配」、「商務旅行」)，其中以下游運輸和配送產生的排放為最大量，占範疇三總排放量之 69.51%。"
+              ]
+            }
+          },
+
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["總覽", "圖表"],
+              "tabs": {
+                "總覽": [
+                  {
+                    "type": "BarChart",
+                    "props": {
+                      "xDataKey": "name",
+                      "data": [
+                        {
+                          "name": "2021年",
+                          "uv": 3.393,
+                          "pv": 232.317,
+                          "type3": 1500.392,
+                          "amt": 0.259
+                        },
+                        {
+                          "name": "2022年",
+                          "uv": 14.654,
+                          "pv": 242.175,
+                          "type3": 1723.624,
+                          "amt": 0.326
+                        },
+                        {
+                          "name": "2023年",
+                          "uv": 19.462,
+                          "pv": 280.25,
+                          "type3": 1289.207,
+                          "amt": 0.465
+                        }
+                      ],
+                      "series": [
+                        {
+                          "key": "uv",
+                          "type": "bar",
+                          "color": "#F8B195",
+                          "yAxisId": "left",
+                          "stackId": "a",
+                          "name": "範疇一"
+                        },
+                        {
+                          "key": "pv",
+                          "type": "bar",
+                          "color": "#F67280",
+                          "yAxisId": "left",
+                          "stackId": "a",
+                          "name": "範疇二"
+                        },
+                        {
+                          "key": "type3",
+                          "type": "bar",
+                          "color": "#C06C84",
+                          "yAxisId": "left",
+                          "stackId": "a",
+                          "name": "範疇三"
+                        },
+                        {
+                          "key": "amt",
+                          "type": "line",
+                          "color": "#355C7D",
+                          "yAxisId": "right",
+                          "name": "排放密集度"
+                        }
+                      ],
+                      "yAxisLeftUnit": "單位：公噸CO2e",
+                      "yAxisRightUnit": "單位：公噸CO2e /億元"
+                    }
+                  }
+                ],
+                "圖表": [
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "範疇一&範疇二"
+                    }
+                  },
+                  {
+                    "type": "Table",
+                    "props": {
+                      "unit": "單位：公噸CO2e",
+                      "headers": ["類別", "2021年", "2022年", "2023年"],
+                      "rows": [
+                        [
+                          { "content": "範疇一：直接溫室氣體排放" },
+                          { "content": "3.393" },
+                          { "content": "14.654" },
+                          { "content": "19.462" }
+                        ],
+                        [
+                          { "content": "範疇二：能源間接溫室氣體排放" },
+                          { "content": "232.317" },
+                          { "content": "242.175" },
+                          { "content": "280.250" }
+                        ],
+                        [
+                          { "content": "總排放量" },
+                          { "content": "235.710" },
+                          { "content": "256.829" },
+                          { "content": "299.712" }
+                        ],
+                        [
+                          { "content": "溫室氣體排放密集度(公噸CO 2 e /億元)" },
+                          { "content": "0.259" },
+                          { "content": "0.326" },
+                          { "content": "0.465" }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "範疇三"
+                    }
+                  },
+                  {
+                    "type": "Table",
+                    "props": {
+                      "unit": "單位：公噸CO2e",
+                      "headers": ["類別", "2021年", "2022年", "2023年"],
+                      "rows": [
+                        [
+                          {
+                            "content": "類別 3：與燃料和能源相關活動的排放（未涵蓋在範疇一或二）"
+                          },
+                          { "content": "42.775" },
+                          { "content": "47.390" },
+                          { "content": "60.274" }
+                        ],
+                        [
+                          { "content": "類別 4：上游運輸和配送產生的排放" },
+                          { "content": "(註4)" },
+                          { "content": "53.172" },
+                          { "content": "46.383" }
+                        ],
+                        [
+                          { "content": "類別 6：商務旅行產生的排放" },
+                          { "content": "225.242" },
+                          { "content": "306.120" },
+                          { "content": "286.470" }
+                        ],
+                        [
+                          { "content": "類別 9：下游運輸和配送產生的排放" },
+                          { "content": "1,232.375" },
+                          { "content": "1,316.942" },
+                          { "content": "896.080" }
+                        ],
+                        [
+                          { "content": "總計" },
+                          { "content": "1,500.392" },
+                          { "content": "1,723.624" },
+                          { "content": "1,289.207" }
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "減量行動方案"
+            }
+          },
+          {
+            "type": "H2",
+            "props": {
+              "text": "範疇一及範疇二"
+            }
+          },
+          {
+            "type": "SimpleCard",
+            "props": {
+              "steps" : [
+                {
+                  "title" : "採用節能設備",
+                  "icon": "faBolt"
+                },
+                {
+                  "title" : "督促大樓公共區域採用節能設備",
+                  "icon": "faLightbulb"
+                },
+                {
+                  "title" : "鼓勵搭乘大眾交通運輸或共乘",
+                  "icon": "faBus"
+                }
+            
+              ]
+            }
+          },
+        
+
+          {
+            "type": "H2",
+            "props": {
+              "text": "範疇三"
+            }
+          },
+          {
+            "type": "SimpleCard",
+            "props": {
+              "steps" : [
+                {
+                  "title" : "持投入尋找新綠能產業代理機會",
+                  "icon": "faSeedling"
+                },
+                {
+                  "title" : "選擇與提供綠色服務之運輸承攬業者合作",
+                  "icon": "faShippingFast"
+                },
+                {
+                  "title" : "評估採購綠電或購買綠色憑證",
+                  "icon": "faSolarPanel"
+                },
+                {
+                  "title" : "產品出口合併提貨，減少車輛往返",
+                  "icon": "faBox"
+                }
+            
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "溫室氣體盤查外部查證"
+            }
+          },
+          {
+            "type": "DocDownload",
+            "props": {
+              "text": "2023年溫室氣體盤查報告",
+              "href": "https://drive.google.com/file/d/1zcmOHqjgoeu0Degoo4_fnMfTb_FmZFs8/view"
+            }
+          },
+          {
+            "type": "DocDownload",
+            "props": {
+              "text": "2022年溫室氣體盤查報告",
+              "href": "http://www.supreme.com.tw/File/2022%E5%B9%B4%E6%BA%AB%E5%AE%A4%E6%B0%A3%E9%AB%94%E7%9B%A4%E6%9F%A5%E7%A2%BA%E4%BF%A1%E5%A0%B1%E5%91%8APwC.pdf"
+            }
+          },
+          {
+            "type": "DocDownload",
+            "props": {
+              "text": "2021年溫室氣體盤查報告",
+              "href": "http://www.supreme.com.tw/File/2021%E5%B9%B4BSI%E8%81%B2%E6%98%8E%E6%9B%B8.pdf"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

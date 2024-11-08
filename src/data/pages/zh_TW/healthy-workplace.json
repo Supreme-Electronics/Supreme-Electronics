@@ -1,0 +1,275 @@
+{
+  "title": "健康職場",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730445622/bg-healthy-workplace_jig0bc.webp",
+  "primaryColor": "#e3697a",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "健康職場認證"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "健康職場認證是基於世界衛生組織的「職場周全健康促進推動模式」，強調整合「生理工作環境」、「社會心理工作環境」、「個人健康資源」，以及「企業社區參與」的四大層面。本公司於2023年新申請健康職場標章審核通過，我們承諾提供完善的健康資源，不斷改善生理及社會心理工作環境，同時擴及員工眷屬、社區，實踐企業社會責任。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "健檢與醫護服務"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司致力於打造健康幸福的職場，除勞保、健保外，亦提供員工團體保險、新進員工免費健康檢查及在職員工定期免費健康檢查（2年1次）。此外，自2021 年起新增設「勞工健康保護- 臨場醫護諮詢」，包含：執行工作負荷評估與管理、人因性危害預防、母性健康保護、職場暴力預防等健康保護四大計畫，2023年度提供醫護諮詢36次（72小時）／醫師諮詢3次（6小時）。為保護員工個人健康相關資訊的隱私與機密性，醫護諮詢過程皆秉持醫療保密原則，諮詢内容除醫護人員與諮詢本人外，禁止向公司或第三者透露任何資訊。"
+              ]
+            }
+          },
+          {
+            "type": "ImageSwiper",
+            "props": {
+              "slides": [
+                {
+                  "title": "醫護諮詢",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447146/%E9%86%AB%E8%AD%B7%E8%AB%AE%E8%A9%A201_gsr5fq.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447121/%E9%86%AB%E8%AD%B7%E8%AB%AE%E8%A9%A202_mnaaw1.webp"
+                  ]
+                },
+                {
+                  "title": "員工健康檢查",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447137/%E5%93%A1%E5%B7%A5%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A501_dqe6wo.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447141/%E5%93%A1%E5%B7%A5%E5%81%A5%E5%BA%B7%E6%AA%A2%E6%9F%A502_zmz6a5.webp"
+                  ]
+                },
+                {
+                  "title": "自律神經健康講座",
+                  "images": [
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447124/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A701_gn2cg3.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447128/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A702_tqxln2.webp",
+                    "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447133/%E8%87%AA%E5%BE%8B%E7%A5%9E%E7%B6%93%E5%81%A5%E5%BA%B7%E8%AC%9B%E5%BA%A703_al2bui.webp"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+        "type": "Section",
+        "props": {
+          "components": [
+            {
+              "type": "H1",
+              "props": {
+                "text": "運動社團"
+              }
+            },
+            {
+                "type": "Tab",
+                "props": {
+                  "categories": [
+                    "桌球社",
+                    "籃球社",
+                    "羽球社",
+                    "路跑社",
+                    "高爾夫球社",
+                    "桌遊社"
+                  ],
+                  "icons": ["faTableTennisPaddleBall", "faBasketball", "faFeather", "faPersonRunning", "faGolfBall", "faChessRook"],  
+                  "tabs": {
+                    "桌球社": [
+                      {
+                        "type": "ImageSwiper",
+                        "props": {
+                          "slides": [
+                            {
+                              "images": [
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481009/club-tableTennis01_birtg3.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481005/club-tableTennis02_inhzsj.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481001/club-tableTennis03_lgxj6a.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730480998/club-tableTennis04_yeg1cj.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730480977/club-tableTennis05_dlocpc.webp"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "P",
+                        "props": {
+                          "paragraphs": [
+                            "以「以球會友」為初衷，透過定期安排友誼比賽、聚餐等活動促進社團成員間的感情交流，且聘請專業桌球教練陪同練習，精進個人球技、培養運動家精神。"
+                          ]
+                        }
+                      }
+                    ],
+                    "籃球社": [
+                      {
+                        "type": "ImageSwiper",
+                        "props": {
+                          "slides": [
+                            {
+                              "images": [
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483370/club-basketball01_nmrxid.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483365/club-basketball02_c00ypn.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483360/club-basketball03_odghau.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483356/club-basketball04_yujsqj.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483351/club-basketball05_veiqlt.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483346/club-basketball06_lwjnfn.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483341/club-basketball07_lbigde.webp"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "P",
+                        "props": {
+                          "paragraphs": [
+                            "社員的矯健身影在每周三固定出現於内湖運動中心專用室內籃球場，同仁們在揮灑汗水的同時增進同仁友誼"
+                          ]
+                        }
+                      }
+                    ],
+                    
+                    "羽球社": [
+                      {
+                        "type": "ImageSwiper",
+                        "props": {
+                          "slides": [
+                            {
+                              "images": [
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483517/club-badminton01_aqwokw.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483512/club-badminton02_juvirw.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483508/club-badminton03_l3prgy.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483503/club-badminton04_jei9go.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483375/club-badminton05_rsvmon.webp"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "P",
+                        "props": {
+                          "paragraphs": [
+                            "為了讓同仁在繁忙的工作中有機會放鬆身心，同時透過社團活動擴展社交圈、結交好友，羽球社固定每周一於專用標準羽球館舉辦相關活動，讓公司同仁們能在比賽和訓練中共同成長。"
+                          ]
+                        }
+                      }
+                    ],
+                    
+                    "路跑社": [
+                      {
+                        "type": "ImageSwiper",
+                        "props": {
+                          "slides": [
+                            {
+                              "images": [
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481074/club-running01_kqkawo.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481082/club-running02_wxdvyv.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481066/club-running03_y9qn8u.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481062/club-running04_isils2.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481058/club-running05_rj9rgi.webp"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "P",
+                        "props": {
+                          "paragraphs": [
+                            "路跑社的成立能為同仁保持持續運動的習慣，鍛鍊身體同時共同響應多元化公益路跑活動。"
+                          ]
+                        }
+                      }
+                    ],
+                    
+                    
+                    "高爾夫球社": [
+                      {
+                        "type": "ImageSwiper",
+                        "props": {
+                          "slides": [
+                            {
+                              "images": [
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483156/club-golf01_cixjir.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483152/club-golf02_fmgrvg.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481983/club-golf03_sg8ruw.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481078/club-golf04_xpupdk.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481981/club-golf05_drxpcl.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481989/club-golf06_taytjz.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481070/club-golf07_iuowy8.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730481992/club-golf08_jceosr.webp"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "P",
+                        "props": {
+                          "paragraphs": [
+                            "高爾夫球是一項可以在忙碌的工作生活之餘紓解身心壓力的休閑運動。愛好高爾夫球運動的同仁們，定期 於每月第二週舉辦球敘齊聚各球場，不僅可在絕美大自然景色中放鬆身心，也能互相切磋球技。"
+                          ]
+                        }
+                      }
+                    ],
+                    
+                    "桌遊社": [
+                      {
+                        "type": "ImageSwiper",
+                        "props": {
+                          "slides": [
+                            {
+                              "images": [
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483179/club-board01_yc0uws.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483174/club-board02_zyzz7k.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483170/club-board03_yqfmcy.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483165/club-board04_s6odom.webp",
+                                "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730483160/club-board05_slhfju.webp"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "P",
+                        "props": {
+                          "paragraphs": [
+                            "桌遊是一種能在輕鬆愉快的氛圍中鍛鍊思維和促進交流的活動。熱愛桌遊的同仁們，定期於每月第三週舉辦桌遊聚會，在這些聚會中，不僅能探索各式各樣的桌上遊戲，挑戰自己的策略和運氣，也能與同事們一起享受樂趣、增進彼此的感情。無論你是桌遊新手還是老手，我們都歡迎你的加入，一起體驗桌遊的無窮魅力。"
+                          ]
+                        }
+                      }
+                    ]
+                    
+                  }
+                }
+              }
+         
+          ]
+        }
+      }
+  ]
+}

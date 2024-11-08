@@ -1,0 +1,90 @@
+{
+  "title": "水資源管理",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730694843/bg-water-management_inwa1g.webp",
+  "primaryColor": "#409ea1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "水資源管理"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司台灣地區共有四個營運據點，分別為台北總部、新莊、龍潭及台南三個辦事處，各營運據點取水來源均為各地所屬自來水公司，未取得地表水、地下水、海水、產出水等，也無自具有水資源壓力的地區取水。水資源壓力皆屬「Low-Medium(1-2)」",
+                "註：WATERRISKATLAS：https://reurl.cc/yyjme2"
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "取水量&耗水量"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "2023年取水量為2.932百萬公升，相較2022年增加0.065百萬公升，增加主要原因係因統計數據揭露期間落差因素所致。一為龍潭辦事處2022年度設置於中研院，水費係包含在月租賃費用當中，無額外收取，直至2023年08月辦事處遷移，始有取水數據之產生；一為新莊辦事處於2022年09月增加租賃區域，其取水數據統計不足一年，2023年則完整揭露二個租賃區域之年度取水數據。"
+              ]
+            }
+          },
+          {
+            "type": "Table",
+            "props": {
+              "unit": "單位：百萬公升 ( Million Litres )",
+              "headers": [
+                { "content": "年度" },
+                { "content": "2021年" },
+                { "content": "2022年" },
+                { "content": "2023年" }
+              ],
+              "notes": [
+                "至上電子取水量數據來源以台灣自來水公司用水量度數所統計換算( 1度水=1000公升=1公噸水)。",
+                "統計範圍包含：台北總部及新莊、龍潭、台南三處辦事處。",
+                " 耗水量數據來源為：總取水量－總排水量。"
+              ],
+              "rows": [
+                [
+                  { "content": "取水量" },
+                  { "content": "0.819" },
+                  { "content": "2.867" },
+                  { "content": "2.932" }
+                ],
+                [
+                  { "content": "排水量" },
+                  { "content": "0.819" },
+                  { "content": "2.867" },
+                  { "content": "2.932" }
+                ],
+                [
+                  { "content": "耗水量" },
+                  { "content": "0" },
+                  { "content": "0" },
+                  { "content": "0" }
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

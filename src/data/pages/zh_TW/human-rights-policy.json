@@ -1,0 +1,816 @@
+{
+  "title": "人權政策",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730447633/bg-human-rights-policy_zvnlxs.webp",
+  "primaryColor": "#e3697a",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "人權政策"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "至上堅守核心價值，落實國際相關規範與準則，為善盡永續發展，保障公司全體員工、客戶及利害關係人之基本人權，同時建立積極正向的員工關係，營造高度參與的工作環境，並遵循《聯合國世界人權宣言》、《聯合國商業與人權指導原則》、《聯合國全球盟約與聯合國國際勞動組織》、《責任商業聯盟行為準則（RBA Code of Conduct）》等國際人權公約所揭露之原則，保持一致，甚至更為嚴格。",
+                "我們尊重國際公認之基本人權，包括結社自由、關懷弱勢族群、禁用童工、消除各種形式之強迫勞動、消除僱傭與就業歧視等，並恪守公司所在地之勞動相關法規，說明如下：依相關法規及國際人權公約訂定相關管理政策，並確實遵守勞動法規，以保障員工之相關合法權益，依「個人資料保護法」規定，嚴格保管員工基本資料，調閱人事資訊時需權責主管核准方可調閱，人事系統亦依權責進行管控，不得任意揭露員工個人資料。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "人權實施具體方針"
+            }
+          },
+          {
+            "type": "Card",
+            "props": {
+              "cards": [
+                {
+                  "title": "員工關懷",
+                  "list": [
+                    "加強宣導「性別工作平等法」、「性騷懮防治法」，保護員工免於遭受被歧視及被騷擾之情況。",
+                    "以員工健康需求為導向：新進員工免費健康檢查，員工定期健康檢查（兩年一次；年滿65歲者及高階主管每年一次）"
+                  ]
+                },
+                {
+                  "title": "保障員工權益",
+                  "list": [
+                    "提供多元化活動：社團活動、家庭參與活動。",
+                    "員工進修訓練：本公司訂有教育訓練管理辦法，鼓勵員工持續進修",
+                    "公司利益共享：採取員工分紅獎勵(依當年度盈餘狀況分配)、員工持股信託(公司相對提撥獎勵金)..等福利，藉以激勵員工及提升向心力。"
+                  ]
+                },
+                {
+                  "title": "杜絕不法歧視",
+                  "list": [
+                    "關懷弱勢族群杜絶不法歧視，恪守「勞動基準法」及國際人權規範，不因種族、階級、語言、宗教、黨派、性別、性傾向、年齡、婚姻、容貌等予以就業歧視。"
+                  ]
+                },
+                {
+                  "title": "禁用童工",
+                  "list": [
+                    "恪守「勞動基準法」及國際人權規範，於公司人力資源單位之面試流程規範中據以施行，不雇用16歲以下之童工。"
+                  ]
+                },
+                {
+                  "title": "禁止強迫勞動",
+                  "list": [
+                    "恪守「勞動基準法」及國際人權規範，消除各種形式之強迫勞動。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "人權風險減緩措施"
+            }
+          },
+
+          {
+            "type": "Panel",
+            "props": {
+              "slides": [
+                {
+                  "title": "員工關懷",
+                  "icon": "faHeart",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "全體員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "工作場所"
+                                },
+                                {
+                                  "label": "執行職務期間"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "無健康狀態屬高風險之個案"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "提供員工團體保險以彌補勞、健保險之不足，提升員工及眷屬保障。"
+                                },
+                                {
+                                  "label": "新進員工免費健康檢查及在職員工定期免費健康檢查( 2 年 1 次)。"
+                                },
+                                {
+                                  "label": "不定期舉辦健康衛教講座，提升員工健康觀念。"
+                                },
+                                {
+                                  "label": "設置「勞工健康保護- 臨場醫護諮詢」服務,包含:執行工作負荷評估與管理、人因性危害預防、母性健康保護、職場暴力預防等健康保護四大計畫,醫護駐點諮詢:護理師 3 次/月;醫師 3 次/年,醫護諮詢過程皆秉持醫療保密原則,諮詢内容除醫護人員與諮詢本人外禁止向公司或第三者透露任何資訊。"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "職場包容性",
+                  "icon": "faUsers",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "全體員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "工作場所"
+                                },
+                                {
+                                  "label": "執行職務期間"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "讓員工都能在平等的環境下工作"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "制定相關政策和指導方針，加強員工多元文化培訓和教育，以確保每位員工都受到平等的對待和支持。"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "歧視與性騷擾",
+                  "icon": "faBan",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "全體員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "工作場所"
+                                },
+                                {
+                                  "label": "執行職務期間"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "無歧視與性騷擾事件"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "訂有「性騷擾防治措施、申訴及懲戒辦法」，並要求所有員工確實遵循。"
+                                },
+                                {
+                                  "label": "加強宣導「性別工作平等法」、「性騷懮防治法」，保護員工免於遭受被歧視及被騷擾之情況。"
+                                },
+                                {
+                                  "label": "提供性騷擾申訴管道，使員工得即時表達意見，並保護被害人之權益及隱私。"
+                                },
+                                {
+                                  "label": "設置性騷擾申訴處理委員會，由勞資雙方代表共同組成負責處理性騷擾申訴案件，秉持公正處理相關案件。"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "職業安全衛生",
+                  "icon": "faShieldAlt",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "全體員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "工作場所"
+                                },
+                                {
+                                  "label": "執行職務期間"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "提供安全之工作環境"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "P",
+                            "props": {
+                              "paragraphs": [
+                                "本公司辦公環境主要為辦公室以及倉儲兩類地點。針對辦公處所以及倉儲環境，制訂以下職業安全衛生規範:"
+                              ]
+                            }
+                          },
+
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "設置符合飲用水標準之飲水設備，定期清洗及維護。"
+                                },
+                                {
+                                  "label": "公司位置為內湖園區大樓，依法規規定設置完整之消防系統 ( 如:緊急電源插座、排煙設備、逃生指示燈、滅火器、安全逃生通道)。"
+                                },
+                                {
+                                  "label": "消防設備檢查:1 次 / 年;消防演習:1 次 / 半年。"
+                                },
+                                {
+                                  "label": "大樓管委會設有警衛人員執行大樓巡邏、訪客登記及車輛進出管制。"
+                                },
+                                {
+                                  "label": "本公司有二名員工領具消防人員證照，確保在緊急情況下能夠迅速且有效應對。"
+                                },
+                                {
+                                  "label": "秉持工作安全至上原則，倉儲之貨物搬運、堆放係依勞動部「職業安全衛生設施規則」辧理。"
+                                },
+                                {
+                                  "label": "貨物堆放高度不得超過 180cm 或六層高度，二者限高規定取其先達標者遵守。"
+                                },
+                                {
+                                  "label": "貨物搬運時儘量利用器械代替人力，例：手推車。"
+                                },
+                                {
+                                  "label": "宣導工作場所不得穿著露指型鞋款，以包鞋為佳。"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "禁用童工",
+                  "icon": "faChild",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "求職者及新進員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "面試及報到時"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "無僱用童工情形"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "於面試作業需填寫之文件要求應徵者載明出生日期，並確保資料之正確性，另於報到時覆核其身分證件"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "禁止強迫勞動",
+                  "icon": "faLock",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "全體員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "工作場所"
+                                },
+                                {
+                                  "label": "執行職務期間"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "無強迫勞動事件"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "招募廣告如實揭露各職缺內容，不保留員工或求職者身份文件，也不收取財物或要求保證金。"
+                                },
+                                {
+                                  "label": "在正式任用前，將詳細說明勞動條件，確保員工在明確同意後方開始任職，絕不使用任何非自願的勞動力。"
+                                },
+                                {
+                                  "label": "保證所提供給員工的實際工作條件和工資支付與勞動契約和工作規則一致，並遵守相關的勞動法令規範。"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": "勞資爭議",
+                  "icon": "faBalanceScale",
+                  "children": [
+                    {
+                      "type": "Split",
+                      "props": {
+                        "leftChildren": [
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "評估對象" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "全體員工"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "風險產生源"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "勞資雙方認知差異及溝通不良"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          },
+
+                          {
+                            "type": "H2",
+                            "props": { "type": "underline", "text": "目標" }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "無勞資爭議事件"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ],
+                        "rightChildren": [
+                          {
+                            "type": "H2",
+                            "props": {
+                              "type": "underline",
+                              "text": "預防/風險減緩措施"
+                            }
+                          },
+
+                          {
+                            "type": "List",
+                            "props": {
+                              "type": "basic",
+                              "items": [
+                                {
+                                  "label": "透過會議、意見反饋及訪談等，瞭解員工的需求和關切事項，從而改善工作環境和勞工待遇。"
+                                },
+                                {
+                                  "label": "定期辦理勞資會議，妥善與員工溝通，確保勞資對話暢通。"
+                                }
+                              ],
+                              "className": "list-disc"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

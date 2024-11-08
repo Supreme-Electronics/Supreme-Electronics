@@ -1,0 +1,367 @@
+{
+  "title": "Information Security Management",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730392817/bg-information-security_i2ut9p.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Information Security Management"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "A risk control team was established, consisting of personnel from various departments, with a total of 9 members. They conduct quarterly reviews of various risk issues at the end of each fiscal quarter to facilitate control and risk mitigation."
+              ]
+            }
+          },
+          {
+            "type": "Goal",
+            "props": {
+              "goals": [
+                {
+                  "title": "Short-Term Goals (2026)",
+                  "items": [
+                    "Zero major security incidents",
+                    "Vulnerability scanning for systems and website services",
+                    "Website penetration testing",
+                    "Complete remediation of vulnerabilities identified in scans and penetration tests",
+                    "Implement information security awareness campaigns",
+                    "Conduct social engineering exercises"
+                  ]
+                },
+                {
+                  "title": "Medium-Term Goals (2028)",
+                  "items": [
+                    "Zero major security incidents",
+                    "Continuous monitoring of websites, systems, and newly identified vulnerabilities",
+                    "Establish dual on-premises + cloud self-monitoring for information security",
+                    "Implement information security awareness campaigns",
+                    "Conduct information security training sessions"
+                  ]
+                },
+                {
+                  "title": "Long-Term Goals (2030)",
+                  "items": [
+                    "Zero major security incidents",
+                    "Continuous monitoring of websites, systems, and newly identified vulnerabilities",
+                    "Establish dual on-premises + cloud self-monitoring for information security",
+                    "Implement information security awareness campaigns",
+                    "Conduct information security training sessions"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Annual Information Security Performance"
+            }
+          },
+
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["2023", "2022"],
+              "tabs": {
+                "2023": [
+                  {
+                    "type": "List",
+                    "props": {
+                      "items": [
+                        {
+                          "label": "Spam Protection",
+                          "value": "107,517 emails"
+                        },
+                        {
+                          "label": "Information Security Email Awareness",
+                          "value": "6 times"
+                        },
+                        {
+                          "label": "Host System Vulnerability Scans",
+                          "value": "1 time"
+                        },
+                        {
+                          "label": "Virus Email Interception",
+                          "value": "1,484 emails"
+                        },
+                        {
+                          "label": "Email Connection Blocking",
+                          "value": "112,746 times"
+                        },
+                        {
+                          "label": "System and Software Vulnerabilities Remediated",
+                          "value": "918 items"
+                        },
+                        {
+                          "label": "Social Engineering Simulation Emails",
+                          "value": "510 emails"
+                        }
+                      ],
+                      "className": "text-gray-800"
+                    }
+                  }
+                ],
+                "2022": [
+                  {
+                    "type": "List",
+                    "props": {
+                      "items": [
+                        {
+                          "label": "Spam Protection",
+                          "value": "117,406 emails"
+                        },
+                        {
+                          "label": "Information Security Email Awareness",
+                          "value": "4 times"
+                        },
+                        {
+                          "label": "Website Penetration Testing",
+                          "value": "1 time"
+                        },
+                        {
+                          "label": "Website Vulnerability Scanning",
+                          "value": "1 time"
+                        },
+                        {
+                          "label": "Host System Vulnerability Scans",
+                          "value": "2 times"
+                        },
+                        {
+                          "label": "Virus Email Interception",
+                          "value": "13,045 emails"
+                        },
+                        {
+                          "label": "Email Connection Blocking",
+                          "value": "117,406 times"
+                        },
+                        {
+                          "label": "System and Software Vulnerabilities Remediated",
+                          "value": "878 items"
+                        },
+                        {
+                          "label": "Social Engineering Simulation Emails",
+                          "value": "960 emails"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Information Security Governance Framework"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "To prevent information assets from facing security threats and ensure normal business operations, an 'Information Security Project Team' was established. This team sets and maintains information security management guidelines, promotes and coordinates security policies, formulates and adjusts security plans, reviews the impact of major security incidents on the company, and oversees the operation of information security management. Through daily drills, penetration testing, security testing, vulnerability scanning, and awareness campaigns for staff, the team ensures authorized information access. In case of external intrusion or incident, the team can respond swiftly to restore normal system operation and minimize potential damage. With management, planning, supervision, and execution by the professional security team, an all-encompassing security protection mechanism is established, enhancing staff’s security awareness."
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "className": "bg-white",
+        "isFade": "true",
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Information Security Project Team Risk Management Framework"
+            }
+          },
+          {
+            "type": "Img",
+            "props": {
+              "className": "max-w-[1000px]",
+              "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730781230/%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E5%B0%88%E6%A1%88%E5%B0%8F%E7%B5%84%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86%E6%9E%B6%E6%A7%8B_ycv00e.webp",
+              "alt": "Information Security Project Team Risk Management Framework"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Information Security Management Policy"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "Our company is committed to maintaining a secure information environment, ensuring comprehensive protection for data stored, processed, and transmitted within our systems, thereby preventing damage and leaks and supporting business continuity. Network architecture is built with firewalls according to risk levels, strictly controlling internal and external access, and reviewing access services regularly. Backup mechanisms are established for various systems, with data stored locally, uploaded to the cloud, and media storage offsite to ensure safety. Complying with personal data protection laws, we log access to sensitive database information. Emergency drills for information security in server rooms are a priority, including annual disaster recovery exercises to ensure system functionality and data integrity, reducing the risk of service interruption from natural or human errors. In case of system incidents, regular third-party assessments and internal audits of information security controls help review and improve processes, ensuring swift restoration of services with minimized loss and risk."
+              ]
+            }
+          },
+          {
+            "type": "Table",
+            "props": {
+              "headers": ["", "Management Plan"],
+              "rows": [
+                [
+                  {
+                    "content": "User Access Management",
+                    "noWrap": true
+                  },
+                  {
+                    "content": {
+                      "type": "list",
+                      "items": [
+                        "Control and manage accounts and passwords.",
+                        "Establish password management rules.",
+                        "Modify administrator accounts and passwords as necessary."
+                      ]
+                    }
+                  }
+                ],
+
+                [
+                  {
+                    "content": "Network and Communication Security Management",
+                    "noWrap": true
+                  },
+                  {
+                    "content": {
+                      "type": "list",
+                      "items": [
+                        "Request network communication system accounts as per relevant regulations.",
+                        "Lock all network ports by default, opening them as necessary.",
+                        "Prohibit dial-up connections; use direct connections to specific hosts for special needs.",
+                        "Use firewalls as network security barriers.",
+                        "Install antivirus software to detect network security risks."
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "content": "Application System Security Management",
+                    "noWrap": true
+                  },
+                  {
+                    "content": {
+                      "type": "list",
+                      "items": [
+                        "Request network communication system accounts as per relevant regulations.",
+                        "Lock all network ports by default, opening them as necessary.",
+                        "Prohibit dial-up connections; use direct connections to specific hosts for special needs.",
+                        "Use firewalls as network security barriers.",
+                        "Install antivirus software to detect network security risks.",
+                        "Establish secure control files for system administrator management.",
+                        "Assign program execution rights as per user job requirements, set by system administrators.",
+                        "Manage data access through application system permissions, with access logs retained.",
+                        "Control access to non-application system data, retaining access logs."
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "content": "Backup Management",
+                    "noWrap": true
+                  },
+                  {
+                    "content": {
+                      "type": "list",
+                      "items": [
+                        "Perform regular backup and offsite storage management.",
+                        "Execute computer system disaster recovery plans."
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "content": "Asset Management",
+                    "noWrap": true
+                  },
+                  {
+                    "content": {
+                      "type": "list",
+                      "items": [
+                        "Handle procurement, transfer, maintenance, and disposal of computer equipment as per regulations.",
+                        "Manage procurement and usage of computer software as per regulations."
+                      ]
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "className": "bg-white",
+        "isFade": "true",
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Information Security Incident Reporting and Handling Process"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "The efficiency of handling information security incidents is critical to mitigating their impact on the company. Failure to promptly address major security incidents could impact delivery timelines and trust. To enhance incident handling efficiency, the Information Security Project Team has established an incident reporting process for guidance during incidents. For suspected security incidents, immediate response mechanisms are initiated to assess impact, collaborate with relevant departments for recovery and mitigation, and reduce potential risks. No information security complaints from stakeholders or regulatory violations occurred in 2023, nor any major incidents affecting operations."
+              ]
+            }
+          },
+          {
+            "type": "Img",
+            "props": {
+              "className": "max-w-[1000px]",
+              "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730781932/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E9%80%9A%E5%A0%B1%E8%88%87%E8%99%95%E7%90%86%E6%B5%81%E7%A8%8B_htih28.jpg",
+              "alt": "Information Security Incident Reporting and Handling Process"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

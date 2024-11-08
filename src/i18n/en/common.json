@@ -108,6 +108,33 @@
     "absenceRate": "Absence Rate",
   
     
-    "note": "Note"
+    "note": "Note",
+
+    "directImpact": "Direct Impact",
+    "indirectImpact": "Indirect Impact",
+    "orientation": "Orientation",
+    "majorTopics": "Major Topics",
+    "valueChainImpact": "Value Chain Boundary Impact",
+    "upstream": "Upstream",
+    "inhouseOperations": "In-house Operations",
+    "downstream": "Downstream",
+    "governanceEconomy": "Governance/Economy",
+    "businessPerformance": "Business Performance",
+    "governance": "Governance",
+    "informationSecurity": "Information Security",
+    "productsAndCustomerService": "Products and Customer Service",
+    "talentDevelopmentAndRetention": "Talent Development and Retention",
+    "laborRelations": "Labor and Employee Relations",
+    "environment": "Environment",
+    "climateChangeAndGHGManagement": "Climate Change and GHG Management, and Energy Management",
+    "position": "Position",
+    "name": "Name",
+    "experienceTitle": "Main Experiences (Academic Background):",
+    "currentRolesTitle": "Current Roles in This and Other Companies:",
+    "all":"All",
+    "filterByYear": "Filtered by year:",
+    "date":"date",
+    "previousPage": "Previous",
+    "overview" : "Overview"
   }
   

@@ -17,7 +17,6 @@ import Button from "../ui/Button";
 import StatDisplay from "../ui/StateDisplay";
 import JobInfo from "../ui/JobInfo";
 import Table from "../ui/Table";
-import BoardCapabilities from "../ui/BoardCapabilities";
 import SustainbilityJobs from "../ui/SustainbilityJobs";
 import MessageFromChairman from "../ui/MessageFromChairman";
 import Split from "../ui/Split";
@@ -30,6 +29,16 @@ import RiskProcess from "../ui/RiskProcess";
 import StackedBarChart from "../ui/StackedBarChart";
 import ImageSwiper from "../ui/ImageSwiper";
 import HealthyCertification from "../ui/HealthyCertification";
+import Card from "../ui/Card";
+import Panel from "../ui/Panel";
+import IconGrid from "../ui/IconGrid";
+import Step from "../ui/Step";
+import BarChart from "../ui/BarChart";
+import Tree from "../ui/Tree";
+import OverviewGrid from "../ui/OverviewGrid";
+import NewsList from "../ui/NewsList";
+import { useTranslation } from "react-i18next";
+import SimpleCard from "../ui/SimpleCard";
 
 type ComponentType =
   | "H1"
@@ -49,7 +58,6 @@ type ComponentType =
   | "StatDisplay"
   | "JobInfo"
   | "Table"
-  | "BoardCapabilities"
   | "SustainbilityJobs"
   | "MessageFromChairman"
   | "Split"
@@ -62,6 +70,15 @@ type ComponentType =
   | "StackedBarChart"
   | "ImageSwiper"
   | "HealthyCertification"
+  | "Card"
+  | "Panel"
+  | "IconGrid"
+  | "Step"
+  | "BarChart"
+  | "Tree"
+  | "OverviewGrid"
+  | "NewsList"
+  | "SimpleCard"
 
 interface ComponentConfig {
   type: ComponentType;
@@ -72,6 +89,7 @@ interface PageConfig {
   title: string;
   background: string;
   components: ComponentConfig[];
+  primaryColor?: string;
 }
 
 interface PageRendererProps {
@@ -96,7 +114,6 @@ const componentMap: Record<ComponentType, React.FC<any>> = {
   StatDisplay: StatDisplay,
   JobInfo: JobInfo,
   Table: Table,
-  BoardCapabilities: BoardCapabilities,
   SustainbilityJobs: SustainbilityJobs,
   MessageFromChairman: MessageFromChairman,
   Split: Split,
@@ -108,23 +125,50 @@ const componentMap: Record<ComponentType, React.FC<any>> = {
   RiskProcess: RiskProcess,
   StackedBarChart: StackedBarChart,
   ImageSwiper: ImageSwiper,
-  HealthyCertification: HealthyCertification
+  HealthyCertification: HealthyCertification,
+  Card: Card,
+  Panel: Panel,
+  IconGrid: IconGrid,
+  Step: Step,
+  BarChart: BarChart,
+  Tree: Tree,
+  OverviewGrid: OverviewGrid,
+  NewsList: NewsList,
+  SimpleCard:SimpleCard
+
 };
 
 const PageRenderer: React.FC<PageRendererProps> = ({ pageName }) => {
   const [pageConfig, setPageConfig] = useState<PageConfig | null>(null);
-
+  const { i18n } = useTranslation();
   useEffect(() => {
-    import(`../../data/pages/${pageName}.json`)
-      .then((module) => setPageConfig(module.default))
-      .catch((error) => console.error("Error loading page config:", error));
-  }, [pageName]);
+    const loadPageConfig = async () => {
+      const language = i18n.language || 'zh_TW'; 
+      try {
+        const module = await import(`../../data/pages/${language}/${pageName}.json`);
+        setPageConfig(module.default);
+      } catch (error) {
+        console.error("Error loading page config:", error);
+      }
+    };
+
+    loadPageConfig();
+  }, [pageName, i18n.language]);
 
   if (!pageConfig) return <p>Loading...</p>;
+
+  const primaryColor = pageConfig.primaryColor;
 
   const renderComponent = (component: ComponentConfig, index: number) => {
     const Component = componentMap[component.type];
     if (!Component) return null;
+
+    const componentProps = {
+      ...(component.props || {}),
+      ...(component.props?.color === undefined && {
+        primaryColor: primaryColor,
+      }),
+    };
 
     if (component.type === "Section" && component.props?.components) {
       return (
@@ -134,6 +178,17 @@ const PageRenderer: React.FC<PageRendererProps> = ({ pageName }) => {
           )}
         </Component>
       );
+    }
+
+    if (component.type === "Panel") {
+      const slides = component.props.slides.map((slide: any) => ({
+        ...slide,
+        children: slide.children.map((child: ComponentConfig, idx: number) =>
+          renderComponent(child, idx)
+        ),
+      }));
+
+      return <Panel key={index} slides={slides} primaryColor={primaryColor} />;
     }
 
     if (component.type === "Column" && component.props?.components) {
@@ -150,13 +205,31 @@ const PageRenderer: React.FC<PageRendererProps> = ({ pageName }) => {
       );
     }
 
+    if (component.type === "NewsList") {
+      const {
+        initialFilter,
+        isYearFilter = true,
+        isCategoryFilter = false,
+        selectType
+      } = component.props;
+      return (
+        <Component
+          key={index}
+          initialFilter={initialFilter}
+          isYearFilter={isYearFilter}
+          isCategoryFilter={isCategoryFilter}
+          selectType={selectType}
+        />
+      );
+    }
+
     if (component.type === "Tab") {
       const tabs = component.props.tabs as Record<string, ComponentConfig[]>;
       return (
         <Tab
           key={index}
           categories={component.props.categories}
-          tabColor={component.props.tabColor}
+          primaryColor={primaryColor}
           icons={component.props.icons}
         >
           {Object.entries(tabs).map(([category, components]) => (
@@ -184,7 +257,7 @@ const PageRenderer: React.FC<PageRendererProps> = ({ pageName }) => {
       );
     }
 
-    return <Component key={index} {...component.props} />;
+    return <Component key={index} {...componentProps} />;
   };
 
   return (

@@ -1,0 +1,364 @@
+{
+  "title": "誠信經營",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730196115/bg-ethical-management_ye4lyp.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "誠信經營"
+            }
+          },
+
+          {
+            "type": "Goal",
+            "props": {
+              "goals": [
+                {
+                  "title": "短期目標 (2026年)",
+                  "items": [
+                    "員工培訓：持續提供誠信經營暨公平交易、反貪腐教育訓練。",
+                    "邀請供應商簽署「人權、環境永續暨誠信經營承諾書」，持續觀察與供應商往來交易，改善誠信經營不足之處。"
+                  ]
+                },
+                {
+                  "title": "中期目標 (2028年)",
+                  "items": [
+                    "持續改進與監控：定期審查和更新誠信經營相關管理辦法並佈達給董事、員工。",
+                    "所有供應商皆簽署「人權、環境永續暨誠信經營承諾書」，確保其能了解公司對誠信經營之承諾與理念，並確實遵守行為規範。"
+                  ]
+                },
+                {
+                  "title": "長期目標 (2030年)",
+                  "items": [
+                    "善用科技提升公司誠信經營管理效率：導入新興AI人工智慧，偵測公司內部異常交易活動，杜絕不誠信行為，達成高效益的管控成果。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "內部稽核組織與運作"
+            }
+          },
+          {
+            "type": "Column",
+            "props": {
+              "position": "center",
+              "columns": 2,
+              "components": [
+                {
+                  "type": "Img",
+                  "props": {
+                    "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730196782/ethical-management-structure_k2bgms.webp",
+                    "alt": "ethical-management-structure",
+                    "className": "max-w-[300px]",
+                    "width": "450px"
+                  }
+                },
+                {
+                  "type": "List",
+                  "props": {
+                    "type": "basic",
+                    "items": [
+                      {
+                        "label": "本公司設置隸屬於董事會之稽核室，配置適任且專任之稽核人員，目前編制為稽核主管一人、稽核人員二人，共三人。其中內部稽核主管之任免，前經董事會決議通過。"
+                      },
+                      {
+                        "label": "於2020年3月12日訂定「公司治理實務守則」，本公司內部稽核人員之任免、每年執行考評乙次、薪資報酬係由稽核主管簽報至本公司董事長核定。"
+                      },
+                      {
+                        "label": "內部稽核人員均符合法令規定之適任條件，每年持續進修並參加金管會認定機構所舉辦之內部稽核講習，以提升稽核品質及能力。"
+                      }
+                    ],
+                    "className": "list-disc"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Step",
+            "props": {
+              "steps": [
+                {
+                  "step": "Step 1",
+                  "title": "稽核範圍",
+                  "icon": "faMapMarked"
+                },
+                {
+                  "step": "Step 2",
+                  "title": "稽核對象",
+                  "icon": "faClipboardList"
+                },
+                { "step": "Step 3", "title": "稽核目的", "icon": "faBullseye" },
+                { "step": "Step 4", "title": "稽核方式", "icon": "faSearch" },
+                {
+                  "step": "Step 5",
+                  "title": "稽核報告",
+                  "icon": "faFileSignature"
+                },
+                { "step": "Step 6", "title": "稽核評估", "icon": "faChartPie" }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "誠信經營執行情形"
+            }
+          },
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["2024", "2023", "2022"],
+              "tabs": {
+                "2024": [
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "通知財務報告封閉期間："
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2024.10.04",
+                      "text": "113年Q2財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/113%E5%B9%B4Q2%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2024.04.12",
+                      "text": "113年Q1財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/113%E5%B9%B4Q1%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2024.01.31",
+                      "text": "112年年度財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/112%E5%B9%B4%E5%B9%B4%E5%BA%A6%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "Note",
+                    "props": {
+                      "text": "本年度履行誠信經營之執行情形已於2023年3月9日董事會進行報告說明。"
+                    }
+                  }
+                ],
+                "2023": [
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "通知財務報告封閉期間："
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2023.10.13",
+                      "text": "112年Q3財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/112%E5%B9%B4Q3%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2023.07.17",
+                      "text": "112年Q2財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/112%E5%B9%B4Q2%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2023.04.19",
+                      "text": "112年Q1財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/112%E5%B9%B4Q1%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2023.02.07",
+                      "text": "111年年度財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/111%E5%B9%B4%E5%B9%B4%E5%BA%A6%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5.jpg"
+                    }
+                  },
+                  {
+                    "type": "Note",
+                    "props": {
+                      "text": "本年度履行誠信經營之執行情形已於2023年3月9日董事會進行報告說明。"
+                    }
+                  },
+                  {
+                    "type": "Section",
+                    "props": {
+                      "type": "no-container",
+                      "components": [
+                        {
+                          "type": "H2",
+                          "props": {
+                            "text": "教育訓練與反貪腐溝通："
+                          }
+                        },
+
+                        {
+                          "type": "DocDownload",
+                          "props": {
+                            "text": "教育訓練與反貪腐溝通情形報告",
+                            "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730516202/2023_EthicalManagement_nd6yk2.pdf"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "2022": [
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "通知財務報告封閉期間："
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2022.10.06",
+                      "text": "111年Q3財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5_Q3.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2022.07.18",
+                      "text": "111年Q2財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5_Q2.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2022.04.19",
+                      "text": "111年Q1財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5_Q1.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2022.02.15",
+                      "text": "年度財務報告【封閉期間】通知",
+                      "href": "http://www.supreme.com.tw/File/%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E9%80%9A%E7%9F%A5_%E5%B9%B4%E5%BA%A6.jpg"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "type": "date",
+                      "date": "2022.01.24",
+                      "text": "防範內線交易宣導_財報封閉期 【於董事會上宣導/人次：7席董事(含獨立董事)】",
+                      "href": "http://www.supreme.com.tw/File/1110124%E5%A0%B1%E5%91%8AC-%E9%98%B2%E7%AF%84%E5%85%A7%E7%B7%9A%E4%BA%A4%E6%98%93%E5%AE%A3%E5%B0%8E_%E8%B2%A1%E5%A0%B1%E5%B0%81%E9%96%89%E6%9C%9F-1.pdf"
+                    }
+                  },
+
+                  {
+                    "type": "Section",
+                    "props": {
+                      "type": "no-container",
+                      "components": [
+                        {
+                          "type": "H2",
+                          "props": {
+                            "text": "教育訓練與反貪腐溝通："
+                          }
+                        },
+
+                        {
+                          "type": "DocDownload",
+                          "props": {
+                            "text": "教育訓練與反貪腐溝通情形報告",
+                            "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730516201/2022_EthicalManagement_iracyr.pdf"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "舉報管道與機制"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司承諾保護檢舉人不因檢舉情事而遭不當處置，檢舉情事經查證若屬實，並協助公司避免損失，將會給予適當獎勵，以鼓勵內部員工與外部其他利害關係人檢舉不誠信與不當行為。如需檢舉，請利用下方連結的線上檢舉信箱或寄信至whistleblower@supreme.com.tw，郵件將直接發送至本公司獨立董事之信箱。"
+              ]
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "text": "線上檢舉信箱",
+              "href": "http://www.supreme.com.tw/WP/Report.aspx"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

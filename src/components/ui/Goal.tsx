@@ -9,9 +9,10 @@ interface GoalItem {
 
 interface GoalProps {
   goals: GoalItem[];
+  primaryColor?: string;
 }
 
-const Goal: React.FC<GoalProps> = ({ goals }) => {
+const Goal: React.FC<GoalProps> = ({ goals, primaryColor='#FF8D50' }) => {
   const lineRef = useRef<HTMLDivElement>(null);
   const [isLineVisible, setIsLineVisible] = useState(false);
   const [visibleGoals, setVisibleGoals] = useState<number[]>([]);
@@ -22,7 +23,7 @@ const Goal: React.FC<GoalProps> = ({ goals }) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setIsLineVisible(true);
-            observer.unobserve(entry.target); // Stop observing after visibility
+            observer.unobserve(entry.target); 
           }
         });
       },
@@ -73,16 +74,18 @@ const Goal: React.FC<GoalProps> = ({ goals }) => {
   return (
     <div className="relative z-10 py-12 xl:grid gird-cols-1 xl:grid-cols-3 items-center mt-8">
       <div
-        className={`col-span-3 mb-4  bg-orange relative expand-line ${
+        className={`col-span-3 mb-4  relative expand-line ${
           isLineVisible ? "is-visible" : ""
         }`}
+        style={{backgroundColor: primaryColor}}
         ref={lineRef}
       >
-        <div className="bg-orange h-[1px] w-[full]"></div>
+        <div className="h-[1px] w-[full]"   style={{backgroundColor: primaryColor}}></div>
 
         <FontAwesomeIcon
           icon={faPlay}
-          className="absolute right-0 top-0 translate-x-[100%] -translate-y-1/2 text-orange text-xl"
+          className="absolute right-0 top-0 translate-x-[100%] -translate-y-1/2 text-xl"
+          style={{color: primaryColor}}
         />
       </div>
       {goals.map((goal, index) => (
@@ -96,9 +99,9 @@ const Goal: React.FC<GoalProps> = ({ goals }) => {
             animationDelay: `${index * 0.4}s`, 
           }}
         >
-          <FontAwesomeIcon icon={faFlag} className="hidden xl:block absolute left-0 -top-[36px] text-orange text-xl" />
-          <p className="text-orange text-2xl font-semibold mb-6">{goal.title}</p>
-          <ul className="list-disc ml-6 space-y-2 text-[1rem] tracking-wide leading-7 text-justify text-gray-600">
+          <FontAwesomeIcon icon={faFlag} className="hidden xl:block absolute left-0 -top-[36px]  text-xl"  style={{color: primaryColor}} />
+          <p className=" text-2xl font-semibold mb-6"  style={{color: primaryColor}}>{goal.title}</p>
+          <ul className="list-disc ml-6 space-y-2 text-[1rem] tracking-wide leading-7 ">
             {goal.items.map((item, itemIndex) => (
               <li key={itemIndex}>{item}</li>
             ))}

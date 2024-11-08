@@ -1,0 +1,214 @@
+{
+  "title": "審計委員會",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730294102/bg-audit-committee_bpbfkl.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "審計委員會"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "審計委員會旨在協助董事會履行其監督公司在執行有關會計、稽核、財務報導流程及財務控制上的品質和誠信度。",
+                "審計委員會為履行其職責，依其組織章程規定有權進行任何適當的審核及調查，並且與公司內部稽核人員、簽證會計師及所有員工間皆有直接聯繫之管道。審計委員會也有權聘請律師、會計師或其他顧問，協助審計委員會執行職務。審計委員會至少每季召開一次常會。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "審計委員會成員"
+            }
+          },
+          {
+            "type": "JobInfo",
+            "props": {
+              "people": [
+                {
+                  "position": "獨立董事",
+                  "name": "王淮",
+                  "experience": [
+                    "國立政治大學企管碩士",
+                    "龍巖(股)公司獨立董事",
+                    "博錸生技(股)公司獨立董事",
+                    "智擎生技製藥(股)公司獨立董事",
+                    "中華公司治理協會理事"
+                  ],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "博錸生技(股)公司獨立董事",
+                    "生華創業投資(股)公司監察人"
+                  ]
+                },
+                {
+                  "position": "獨立董事",
+                  "name": "林佩蓉",
+                  "experience": [
+                    "國立台灣大學管理學院",
+                    "台大-復旦EMBA境外專班碩士班",
+                    "東森電視業務營銷部副總經理"
+                  ],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "安禾智通（股）公司董事長",
+                    "安璽整合行銷(股)公司董事長",
+                    "鉑齡(股)公司董事長",
+                    "安投(股)公司董事長",
+                    "安智媒體行銷(股)公司董事長"
+                  ]
+                },
+                {
+                  "position": "獨立董事",
+                  "name": "楊耀松",
+                  "experience": [
+                    "英國萊斯特大學EMBA",
+                    "魔奇科技(股)公司董事",
+                    "香港華馨達國際(股)公司副董事長",
+                    "晨星半導體(股)公司總經理特助"
+                  ],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "香港華馨達國際(股)公司副董事長"
+                  ]
+                },
+                {
+                  "position": "獨立董事",
+                  "name": "黃國誠",
+                  "experience": ["清華大學數學系", "威強電(股)公司副總經理"],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "上海金泓格國際貿易(有)公司監察人",
+                    "泓格通科技(武漢)(有)公司監察人",
+                    "泓格科技(股)公司副總經理"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "委員會運作與成效概況"
+            }
+          },
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["重要決議事項", "運作情形", "績效評估"],
+              "tabs": {
+                "重要決議事項": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2024年審計委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514575/2024_AuditCommitteeMeetingResolutions_nprj2j.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2023年審計委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514573/2023_AuditCommitteeMeetingResolutions_bxjtnr.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2022年審計委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514571/2022_AuditCommitteeMeetingResolutions_chppyw.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2021年審計委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514569/2021_AuditCommitteeMeetingResolutions_f47klg.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2020年審計委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514569/2020_AuditCommitteeMeetingResolutions_bjklfj.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2019年審計委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514567/2019_AuditCommitteeMeetingResolutions_k19huz.pdf"
+                    }
+                  }
+                ],
+                "運作情形": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "審計委員會運作情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514576/AuditCommitteeOperationalStatus_ovj7gx.pdf"
+                    }
+                  }
+                ],
+                "績效評估": [
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2023年審計委員會績效評估",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514574/2023_AuditCommitteePerformance_h6ktkq.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2022年審計委員會績效評估",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514573/2022_AuditCommitteePerformance_iun86p.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2021年審計委員會績效評估",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514570/2021_AuditCommitteePerformance_hkf9dd.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2020年審計委員會績效評估",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514568/2020_AuditCommitteePerformance_jy2s0y.pdf"
+                      }
+                    }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

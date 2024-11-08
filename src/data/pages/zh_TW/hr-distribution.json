@@ -1,0 +1,461 @@
+{
+  "title": "人力資源分布",
+  "primaryColor": "#e3697a",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730397956/bg-hr-distribution_v1txni.webp",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "人力資源分布"
+            }
+          },
+
+          {
+            "type": "Tab",
+            "props": {
+              "categories": [
+                "員工勞雇形態",
+                "治理單位與員工的多元化",
+                "新進員工和離職員工"
+              ],
+              "tabs": {
+                "員工勞雇形態": [
+                  {
+                    "type": "Table",
+                    "props": {
+                      "headers": ["主要類別", "男性", "女性", "總計", "比例"],
+                      "rows": [
+                        [
+                          { "content": "經理級以上", "noWrap": true },
+                          { "content": "49" },
+                          { "content": "12" },
+                          { "content": "61" },
+                          { "content": "30.81%" }
+                        ],
+                        [
+                          { "content": "經理級以上", "noWrap": true },
+                          { "content": "9" },
+                          { "content": "-" },
+                          { "content": "9" },
+                          { "content": "4.55%" }
+                        ],
+                        [
+                          { "content": "業務行銷", "noWrap": true },
+                          { "content": "31" },
+                          { "content": "4" },
+                          { "content": "35" },
+                          { "content": "17.68%" }
+                        ],
+                        [
+                          { "content": "行政管理", "noWrap": true },
+                          { "content": "19" },
+                          { "content": "40" },
+                          { "content": "59" },
+                          { "content": "29.80%" }
+                        ],
+                        [
+                          { "content": "研發人員", "noWrap": true },
+                          { "content": "30" },
+                          { "content": "4" },
+                          { "content": "34" },
+                          { "content": "17.16%" }
+                        ],
+                        [
+                          { "content": "總計", "noWrap": true },
+                          { "content": "138" },
+                          { "content": "60" },
+                          { "content": "198" },
+                          { "content": "100%" }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                "治理單位與員工的多元化": [
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "組織治理單位的成員百分比"
+                    }
+                  },
+
+                  {
+                    "type": "Table",
+                    "props": {
+                      "headers": [
+                        "治理單位",
+                        "性別",
+                        "年齡",
+                        "2021年",
+                        "2022年",
+                        "2023年"
+                      ],
+                      "rows": [
+                        [
+                          { "content": "董事會", "rowSpan": 6 },
+                          { "content": "男", "rowSpan": 3 },
+                          { "content": "未滿30歲" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" }
+                        ],
+                        [
+                          { "content": "30-50歲" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" }
+                        ],
+                        [
+                          { "content": "大於50歲" },
+                          { "content": "6" },
+                          { "content": "7" },
+                          { "content": "7" }
+                        ],
+                        [
+                          { "content": "女", "rowSpan": 3 },
+                          { "content": "未滿30歲" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" }
+                        ],
+                        [
+                          { "content": "30-50歲" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" }
+                        ],
+                        [
+                          { "content": "大於50歲" },
+                          { "content": "1" },
+                          { "content": "1" },
+                          { "content": "1" }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "各項員工類別的員工百分比"
+                    }
+                  },
+                  {
+                    "type": "Table",
+                    "props": {
+                      "headers": [
+                        "員工類別",
+                        "性別",
+                        "年齡",
+                        "2021年",
+                        "佔全體員工比例(%)",
+                        "2022年",
+                        "佔全體員工比例(%)",
+                        "2023年",
+                        "佔全體員工比例(%)"
+                      ],
+                      "rows": [
+                        [
+                          { "content": "主管", "rowSpan": 6 },
+                          { "content": "男", "rowSpan": 3 },
+                          { "content": "未滿30歲" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" }
+                        ],
+                        [
+                          { "content": "30-50歲" },
+                          { "content": "29" },
+                          { "content": "14.8" },
+                          { "content": "30" },
+                          { "content": "15.31" },
+                          { "content": "32" },
+                          { "content": "16.16" }
+                        ],
+                        [
+                          { "content": "大於50歲" },
+                          { "content": "27" },
+                          { "content": "13.78" },
+                          { "content": "28" },
+                          { "content": "14.29" },
+                          { "content": "26" },
+                          { "content": "13.13" }
+                        ],
+                        [
+                          { "content": "女", "rowSpan": 3 },
+                          { "content": "未滿30歲" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" },
+                          { "content": "0" }
+                        ],
+                        [
+                          { "content": "30-50歲" },
+                          { "content": "6" },
+                          { "content": "3.06" },
+                          { "content": "9" },
+                          { "content": "4.59" },
+                          { "content": "7" },
+                          { "content": "3.53" }
+                        ],
+                        [
+                          { "content": "大於50歲" },
+                          { "content": "4" },
+                          { "content": "2.04" },
+                          { "content": "4" },
+                          { "content": "2.04" },
+                          { "content": "5" },
+                          { "content": "2.54" }
+                        ],
+                        [
+                          { "content": "非主管", "rowSpan": 6 },
+                          { "content": "男", "rowSpan": 3 },
+                          { "content": "未滿30歲" },
+                          { "content": "14" },
+                          { "content": "7.14" },
+                          { "content": "13" },
+                          { "content": "6.63" },
+                          { "content": "20" },
+                          { "content": "10.10" }
+                        ],
+                        [
+                          { "content": "30-50歲" },
+                          { "content": "60" },
+                          { "content": "30.61" },
+                          { "content": "58" },
+                          { "content": "29.59" },
+                          { "content": "53" },
+                          { "content": "26.77" }
+                        ],
+                        [
+                          { "content": "大於50歲" },
+                          { "content": "8" },
+                          { "content": "4.08" },
+                          { "content": "4" },
+                          { "content": "2.04" },
+                          { "content": "7" },
+                          { "content": "3.53" }
+                        ],
+                        [
+                          { "content": "女", "rowSpan": 3 },
+                          { "content": "未滿30歲" },
+                          { "content": "9" },
+                          { "content": "4.59" },
+                          { "content": "8" },
+                          { "content": "4.08" },
+                          { "content": "9" },
+                          { "content": "4.55" }
+                        ],
+                        [
+                          { "content": "30-50歲" },
+                          { "content": "34" },
+                          { "content": "17.35" },
+                          { "content": "36" },
+                          { "content": "18.37" },
+                          { "content": "32" },
+                          { "content": "16.16" }
+                        ],
+                        [
+                          { "content": "大於50歲" },
+                          { "content": "5" },
+                          { "content": "2.55" },
+                          { "content": "6" },
+                          { "content": "3.06" },
+                          { "content": "7" },
+                          { "content": "3.53" }
+                        ],
+                        [
+                          { "content": "總計", "colSpan": 3 },
+                          { "content": "196" },
+                          { "content": "100" },
+                          { "content": "196" },
+                          { "content": "100" },
+                          { "content": "198" },
+                          { "content": "100" }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                "新進員工和離職員工": [
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "新進員工"
+                    }
+                  },
+                  {
+                    "type": "StackedBarChart",
+                    "props": {
+                      "data": [
+                        {
+                          "ageGroup": "21-30歲",
+                          "values": [
+                            {
+                              "count": 8,
+                              "percentage": "4.04%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 3,
+                              "percentage": "1.52%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        },
+                        {
+                          "ageGroup": "31-40歲",
+                          "values": [
+                            {
+                              "count": 6,
+                              "percentage": "3.03%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 1,
+                              "percentage": "0.50%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        },
+                        {
+                          "ageGroup": "41-50歲",
+                          "values": [
+                            {
+                              "count": 6,
+                              "percentage": "3.03%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 1,
+                              "percentage": "0.50%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        },
+                        {
+                          "ageGroup": ">51歲",
+                          "values": [
+                            {
+                              "count": 3,
+                              "percentage": "1.52%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 0,
+                              "percentage": "0.00%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        }
+
+                      ]
+                    }
+                  },
+                  {
+                    "type": "H2",
+                    "props": {
+                      "text": "離職員工"
+                    }
+                  },
+                  {
+                    "type": "StackedBarChart",
+                    "props": {
+                      "data": [
+                        {
+                          "ageGroup": "21-30歲",
+                          "values": [
+                            {
+                              "count": 1,
+                              "percentage": "0.5%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 0,
+                              "percentage": "0.0%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        },
+                        {
+                          "ageGroup": "31-40歲",
+                          "values": [
+                            {
+                              "count": 3,
+                              "percentage": "1.52%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 4,
+                              "percentage": "2.02%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        },
+                        {
+                          "ageGroup": "41-50歲",
+                          "values": [
+                            {
+                              "count": 5,
+                              "percentage": "2.52%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 3,
+                              "percentage": "1.52%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        },
+                        {
+                          "ageGroup": ">51歲",
+                          "values": [
+                            {
+                              "count": 9,
+                              "percentage": "4.55%",
+                              "color": "#92b4ff",
+                              "label": "男性人數"
+                            },
+                            {
+                              "count": 1,
+                              "percentage": "0.5%",
+                              "color": "#ff92b6",
+                              "label": "女性人數"
+                            }
+                          ]
+                        }
+                      ]
+                      
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "最新動態",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730694843/bg-water-management_inwa1g.webp",
+  "primaryColor": "#FF8D50",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "NewsList",
+            "props": {
+              "isYearFilter": "true",
+              "isCategoryFilter": "true"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

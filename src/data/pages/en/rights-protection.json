@@ -1,0 +1,90 @@
+{
+  "title": "Employee Rights Protection",
+  "primaryColor": "#e3697a",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730431111/bg-rights-protection_sagzm7.webp",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Employee Rights Protection"
+            }
+          },
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "Our company is committed to creating a work environment that is safe, inclusive, and promotes employee well-being. We comply with the Labor Standards Act and International Human Rights Conventions, establishing clear work rules and management policies to protect employees' legitimate rights."
+              ]
+            }
+          },
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["Employee Communication Channels", "Labor Retirement System", "Labor Relations Protection"],
+              "tabs": {
+                "Employee Communication Channels": [
+                  {
+                    "type": "P",
+                    "props": {
+                      "paragraphs": [
+                        "To protect every employee's rights, improve the work environment, and enhance labor-management communication, a labor-management committee is established by law. This committee holds labor-management meetings periodically, inviting all employees to participate and encouraging feedback to understand their views on management or welfare policies. These suggestions are taken as references for future improvements in working conditions and benefits. Besides labor-management meetings, a suggestion box is set up in the employee cafeteria to provide an ongoing channel for employees to voice their concerns. In 2023, a total of 4 labor-management meetings were held with no disputes or labor-management issues requiring mediation."
+                      ]
+                    }
+                  }
+                ],
+                "Labor Retirement System": [
+                  {
+                    "type": "P",
+                    "props": {
+                      "paragraphs": [
+                        "Our company has established an employee retirement plan in accordance with the Labor Standards Act. A labor retirement fund supervisory committee is formed, with 2% of the total salary allocated monthly to a retirement fund, which is deposited into a special account at the Central Trust Bureau under the committee’s name. Since July 2005, following government regulations, the company has adopted a personal retirement account system, where employers contribute 6% of the employee’s monthly salary into their individual retirement accounts managed by the Bureau of Labor Insurance.",
+                        "In recent years, the issues of low birth rates and an aging population have not eased. To address the critical issue of declining labor force, our company implements a reemployment program for retirees, offering opportunities for reintegration into the workforce. This promotes collaboration and exchange between older and newer generations of employees, facilitating the transfer of skills and expertise while preventing skill gaps and knowledge loss within the company."
+                      ]
+                    }
+                  }
+                ],
+                "Labor Relations Protection": [
+                  {
+                    "type": "P",
+                    "props": {
+                      "paragraphs": [
+                        "Currently, there are no union organizations or collective agreements established. In full compliance with Article 16 of the Labor Standards Act, when significant operational changes are imminent, the company exercises the minimum advance notice period to terminate labor contracts as required by law, thus safeguarding employees' employment rights and working conditions while striving to minimize any impact. Additionally, a mechanism for long-term communication with employees is established to inform them reasonably and effectively about operational changes that may significantly affect them. In 2023, no major operational changes occurred."
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Table",
+                    "props": {
+                      "headers": [
+                        "Years of Service",
+                        "Notice Period"
+                      ],
+                      "rows": [
+                        [
+                          { "content": "Continued employment for more than three months but less than one year" },
+                          { "content": "Ten days' notice" }
+                        ],
+                        [
+                          { "content": "Continued employment for more than one year but less than three years" },
+                          { "content": "Twenty days' notice" }
+                        ],
+                        [
+                          { "content": "Continued employment for more than three years" },
+                          { "content": "Thirty days' notice" }
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -60,7 +60,7 @@ const Banner: React.FC<BannerProps> = ({
             <div className="pt-16"></div>
               <Breadcrumbs items={navItems} />
 
-          <h1 className="text-5xl font-light mb-4 tracking-widest pt-4">
+          <h1 className=" text-3xl lg:text-5xl font-light mb-4 tracking-widest pt-4">
             {title}
           </h1>
           {description && (

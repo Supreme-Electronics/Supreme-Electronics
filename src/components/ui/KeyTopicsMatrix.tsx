@@ -29,7 +29,7 @@ const KeyTopicsMatrix: React.FC<KeyTopicsMatrixProps> = ({ layers }) => {
   };
 
   return (
-    <div className=" text-[1rem] tracking-wide leading-7 text-justify text-gray-600 flex items-center flex-col">
+    <div className=" text-[1rem] tracking-wide leading-7  flex items-center flex-col">
       <div className="flex flex-col sm:flex-row  justify-center sm:items-center sm:space-x-4 mb-4 lg:w-[80%] w-full mt-12">
 
         <div className="flex items-center gap-2 hover:bg-gray-200 px-6 py-2 rounded-xl cursor-pointer duration-300"  onClick={() => handleLayerChange("all")}>

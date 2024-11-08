@@ -1,0 +1,214 @@
+{
+  "title": "Audit Committee",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730294102/bg-audit-committee_bpbfkl.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Audit Committee"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "The Audit Committee aims to assist the Board of Directors in overseeing the quality and integrity of the company's accounting, auditing, financial reporting processes, and financial controls.",
+                "To fulfill its responsibilities, the Audit Committee is authorized by its charter to conduct any appropriate audits and investigations and has direct communication channels with internal auditors, certifying accountants, and all employees. The Audit Committee is also authorized to hire lawyers, accountants, or other advisors to assist in performing its duties. The Audit Committee meets at least once every quarter."
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Audit Committee Members"
+            }
+          },
+          {
+            "type": "JobInfo",
+            "props": {
+              "people": [
+                {
+                  "position": "Independent Director",
+                  "name": "Wang Huai",
+                  "experience": [
+                    "Master of Business Administration, National Chengchi University",
+                    "Independent Director of Lung Yen Life Service Corp.",
+                    "Independent Director of Pharmigene Inc.",
+                    "Independent Director of SynCore Biotechnology Co., Ltd.",
+                    "Director, Corporate Governance Association of Taiwan"
+                  ],
+                  "currentRoles": [
+                    "Independent Director of the Company",
+                    "Independent Director of Pharmigene Inc.",
+                    "Supervisor of Sunfar Venture Capital Co., Ltd."
+                  ]
+                },
+                {
+                  "position": "Independent Director",
+                  "name": "Lin Pei-jung",
+                  "experience": [
+                    "College of Management, National Taiwan University",
+                    "Taiwan University - Fudan University EMBA Program",
+                    "Deputy General Manager, Business Marketing Division, Eastern Broadcasting Co., Ltd."
+                  ],
+                  "currentRoles": [
+                    "Independent Director of the Company",
+                    "Chairperson of AnHo Wisdom Co., Ltd.",
+                    "Chairperson of Anxi Integrated Marketing Co., Ltd.",
+                    "Chairperson of Bolin Co., Ltd.",
+                    "Chairperson of AnTou Co., Ltd.",
+                    "Chairperson of AnChi Media Marketing Co., Ltd."
+                  ]
+                },
+                {
+                  "position": "Independent Director",
+                  "name": "Yang Yao-song",
+                  "experience": [
+                    "EMBA, University of Leicester, UK",
+                    "Director of Mochi Technology Co., Ltd.",
+                    "Vice Chairperson of Huaxinda International (Hong Kong) Co., Ltd.",
+                    "Special Assistant to the General Manager of MStar Semiconductor Inc."
+                  ],
+                  "currentRoles": [
+                    "Independent Director of the Company",
+                    "Vice Chairperson of Huaxinda International (Hong Kong) Co., Ltd."
+                  ]
+                },
+                {
+                  "position": "Independent Director",
+                  "name": "Huang Kuo-cheng",
+                  "experience": ["Department of Mathematics, National Tsing Hua University", "Deputy General Manager, Weikeng Industrial Co., Ltd."],
+                  "currentRoles": [
+                    "Independent Director of the Company",
+                    "Supervisor of Goldtek International Trading (Shanghai) Co., Ltd.",
+                    "Supervisor of Goldtek Communication Technology (Wuhan) Co., Ltd.",
+                    "Deputy General Manager, ICP DAS Co., Ltd."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "Committee Operations and Performance Overview"
+            }
+          },
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["Key Resolutions", "Operational Status", "Performance Evaluation"],
+              "tabs": {
+                "Key Resolutions": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2024 Audit Committee Key Resolutions",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514575/2024_AuditCommitteeMeetingResolutions_nprj2j.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2023 Audit Committee Key Resolutions",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514573/2023_AuditCommitteeMeetingResolutions_bxjtnr.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2022 Audit Committee Key Resolutions",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514571/2022_AuditCommitteeMeetingResolutions_chppyw.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2021 Audit Committee Key Resolutions",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514569/2021_AuditCommitteeMeetingResolutions_f47klg.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2020 Audit Committee Key Resolutions",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514569/2020_AuditCommitteeMeetingResolutions_bjklfj.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2019 Audit Committee Key Resolutions",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514567/2019_AuditCommitteeMeetingResolutions_k19huz.pdf"
+                    }
+                  }
+                ],
+                "Operational Status": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "Audit Committee Operational Status",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514576/AuditCommitteeOperationalStatus_ovj7gx.pdf"
+                    }
+                  }
+                ],
+                "Performance Evaluation": [
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2023 Audit Committee Performance Evaluation",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514574/2023_AuditCommitteePerformance_h6ktkq.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2022 Audit Committee Performance Evaluation",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514573/2022_AuditCommitteePerformance_iun86p.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2021 Audit Committee Performance Evaluation",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514570/2021_AuditCommitteePerformance_hkf9dd.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2020 Audit Committee Performance Evaluation",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514568/2020_AuditCommitteePerformance_jy2s0y.pdf"
+                      }
+                    }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "title": "產品與客戶服務",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730397284/bg-product-customer-service_gqmw0p.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "政策與承諾"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "掌握產業趨勢，制定客戶服務策略，承諾支持環境保護之相關法令規定，滿足環境及社會議題要求之規範。積極拓展綠能與節能產品，將「控電、節電」訂為永續環境的目標。所有銷售之產品與服務及行銷與廣告皆依循法規及國際準則為之，不得有欺騙、誤導、詐欺或任何其他破壞消費者信任、損害消費者權益之行為。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "至上提供之服務及產品"
+            }
+          },
+          {
+            "type": "Table",
+            "props": {
+              "headers": ["主要產品", "重要用途", "主要供應商"],
+              "rows": [
+                [
+                  { "content": "記憶體元件", "noWrap": true },
+                  {
+                    "content": "顯示卡、主機板、數據機、筆記型電腦、網路卡、伺服器、手機、平板、TV、數位相機 、LCD 監視器 、ADSL 、CABLE MODEM，電腦、通訊及消費性電子產品作為儲存、記憶使用。"
+                  },
+                  { "content": "SAMSUNG" }
+                ],
+                [
+                  { "content": "非記憶體元件", "noWrap": true },
+                  {
+                    "content": "主機板、電源供應器、充電器、手機、平板、TV、電腦顯示器、筆記型電腦、網路卡、週邊卡、數據機、數位相機等，應用於資訊、通訊、網路及消費性電子產品等。"
+                  },
+                  {
+                    "content": "SAMSUNG、MTK、SKYWORKS、BOSCH、敦泰、奕力、CIRRUS LOGIC、蘇州江蘇和成、驊訊、聚睿、聚積、Chrontel、瀚宇彩晶、群創、奇景、卓榮、HKC、 GALAXYCORE等"
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Section",
+            "props": {
+              "components": [
+                {
+                  "type": "H1",
+                  "props": {
+                    "text": "未來發展規劃"
+                  }
+                },
+
+                {
+                  "type": "P",
+                  "props": {
+                    "paragraphs": [
+                      "在電子資訊產業之產銷分工模式中，至上扮演中間橋樑角色，透過綿密的行銷通路網，將產品銷售予下游資訊、通訊及消費性電子產品製造商，並提供整合與應用等諮詢服務。未來公司規劃朝六大面向來迅速滿足客戶一次購足之需求，作為發展的指標："
+                    ]
+                  }
+                },
+                {
+                  "type": "StepProcess",
+                  "props": {
+                    "steps":  [
+                      {
+                        "icon": "faCogs",
+                        "step": "",
+                        "title": "解決方案及通路",
+                        "text": "提供全面的解決方案及行銷通路。"
+                      },
+                      {
+                        "icon": "faBatteryFull",
+                        "step": "",
+                        "title": "新能源/BMS",
+                        "text": "專注於新能源技術及電池管理系統的開發。"
+                      },
+                      {
+                        "icon": "faMicrochip",
+                        "step": "",
+                        "title": "IC設計/光電科技",
+                        "text": "提升產品與服務，供應下游廠商在IC設計及光電技術的研發和應用。"
+                      },
+                      {
+                        "icon": "faWifi",
+                        "step": "",
+                        "title": "物聯網/智能載具",
+                        "text": "因應物聯網及智能載具的創新和整合，為下游廠商提供全面與高效服務。"
+                      },
+                      {
+                        "icon": "faHeartbeat",
+                        "step": "",
+                        "title": "大健康",
+                        "text": "推動智慧生物醫療及人工智慧即時檢測技術的研發。"
+                      },
+                      {
+                        "icon": "faCloud",
+                        "step": "",
+                        "title": "大數據/雲計算/雲服務",
+                        "text": "快速回應市場需求，為客戶提供高效能的數據處理方案。"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

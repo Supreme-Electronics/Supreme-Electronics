@@ -104,6 +104,33 @@
     "absenceRate": "缺勤率",
   
   
-    "note": "註"
+    "note": "註",
+    "directImpact": "直接影響",
+    "indirectImpact": "間接影響",
+    "orientation": "面向",
+    "majorTopics": "重大主題",
+    "valueChainImpact": "價值鏈邊界影響",
+    "upstream": "上游",
+    "inhouseOperations": "至上電子營運",
+    "downstream": "下游",
+    "governanceEconomy": "治理/經濟",
+    "businessPerformance": "經營績效",
+    "governance": "治理",
+    "informationSecurity": "資訊安全",
+    "productsAndCustomerService": "產品與客戶服務",
+    "talentDevelopmentAndRetention": "人才培育與留任",
+    "laborRelations": "勞雇與勞資關係",
+    "environment": "環境",
+    "climateChangeAndGHGManagement": "氣候變遷對策及溫室氣體管理與能源管理",
+
+    "position": "職位",
+    "name": "姓名",
+    "experienceTitle": "主要經（學）歷：",
+    "currentRolesTitle": "目前兼任本公司及其他公司之職務：",
+    "all":"全部",
+    "filterByYear": "依照年分篩選：",
+    "date":"時間",
+    "previousPage": "返回上一頁",
+    "overview" : "總覽"
   }
   

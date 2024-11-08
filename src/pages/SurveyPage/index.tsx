@@ -2,61 +2,63 @@ import React, { useState } from "react";
 import SlideQuestion from "./SlideQuestion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/pro-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 const ESGSurvey: React.FC = () => {
+  const { t } = useTranslation();
   const [answers, setAnswers] = useState<{ [key: string]: string }>({});
 
   const subQuestions02 = [
-    { label: "多元治理", name: "q2" },
-    { label: "經濟績效", name: "q3" },
-    { label: "誠信經營", name: "q4" },
-    { label: "法規遵循", name: "q5" },
-    { label: "風險管理", name: "q6" },
-    { label: "產品品質與技術", name: "q7" },
-    { label: "客戶服務", name: "q8" },
-    { label: "供應鏈管理", name: "q9" },
+    { label: t("survey.governanceDiversity"), name: "q2" },
+    { label: t("survey.economicPerformance"), name: "q3" },
+    { label: t("survey.integrityManagement"), name: "q4" },
+    { label: t("survey.regulatoryCompliance"), name: "q5" },
+    { label: t("survey.riskManagement"), name: "q6" },
+    { label: t("survey.productQuality"), name: "q7" },
+    { label: t("survey.customerService"), name: "q8" },
+    { label: t("survey.supplyChainManagement"), name: "q9" },
   ];
   const subQuestions03 = [
-    { label: "氣候變遷對策", name: "q10" },
-    { label: "綠色產品 / 服務", name: "q11" },
-    { label: "能源（電力、汽油）、水資源、廢棄物管理", name: "q12" },
-    { label: "溫室氣體排放與減量", name: "q13" },
-    { label: "環保問題申訴機制", name: "q14" },
+    { label: t("survey.climateChangeStrategy"), name: "q10" },
+    { label: t("survey.greenProducts"), name: "q11" },
+    { label: t("survey.resourceManagement"), name: "q12" },
+    { label: t("survey.ghgEmissionReduction"), name: "q13" },
+    { label: t("survey.environmentalComplaintMechanism"), name: "q14" },
   ];
   const subQuestions04 = [
-    { label: "社會 / 社區參與", name: "q15" },
-    { label: "勞雇 / 勞資關係", name: "q16" },
-    { label: "職業安全衛生", name: "q17" },
-    { label: "教育訓練與職涯發展", name: "q18" },
-    { label: "平等與多元化", name: "q19" },
-    { label: "薪酬與福利", name: "q20" },
-    { label: "顧客隱私管理", name: "q21" },
+    { label: t("survey.communityEngagement"), name: "q15" },
+    { label: t("survey.laborRelations"), name: "q16" },
+    { label: t("survey.occupationalSafety"), name: "q17" },
+    { label: t("survey.trainingDevelopment"), name: "q18" },
+    { label: t("survey.equalityDiversity"), name: "q19" },
+    { label: t("survey.compensationBenefits"), name: "q20" },
+    { label: t("survey.customerPrivacy"), name: "q21" },
   ];
   const subQuestions05 = [
-    { label: "多元治理", name: "q22" },
-    { label: "經濟績效", name: "q23" },
-    { label: "誠信經營", name: "q24" },
-    { label: "法規遵循", name: "q25" },
-    { label: "風險管理", name: "q26" },
-    { label: "產品品質與技術", name: "q27" },
-    { label: "客戶服務", name: "q28" },
-    { label: "供應鏈管理", name: "q29" },
+    { label: t("survey.governanceDiversity"), name: "q22" },
+    { label: t("survey.economicPerformance"), name: "q23" },
+    { label: t("survey.integrityManagement"), name: "q24" },
+    { label: t("survey.regulatoryCompliance"), name: "q25" },
+    { label: t("survey.riskManagement"), name: "q26" },
+    { label: t("survey.productQuality"), name: "q27" },
+    { label: t("survey.customerService"), name: "q28" },
+    { label: t("survey.supplyChainManagement"), name: "q29" },
   ];
   const subQuestions06 = [
-    { label: "氣候變遷對策", name: "q30" },
-    { label: "綠色產品 / 服務", name: "q31" },
-    { label: "能源（電力、汽油）、水資源、廢棄物管理", name: "q32" },
-    { label: "溫室氣體排放與減量", name: "q33" },
-    { label: "環保問題申訴機制", name: "q34" },
+    { label: t("survey.climateChangeStrategy"), name: "q30" },
+    { label: t("survey.greenProducts"), name: "q31" },
+    { label: t("survey.resourceManagement"), name: "q32" },
+    { label: t("survey.ghgEmissionReduction"), name: "q33" },
+    { label: t("survey.environmentalComplaintMechanism"), name: "q34" },
   ];
   const subQuestions07 = [
-    { label: "社會 / 社區參與", name: "q35" },
-    { label: "勞雇 / 勞資關係", name: "q36" },
-    { label: "職業安全衛生", name: "q37" },
-    { label: "教育訓練與職涯發展", name: "q38" },
-    { label: "平等與多元化", name: "q39" },
-    { label: "薪酬與福利", name: "q40" },
-    { label: "顧客隱私管理", name: "q41" },
+    { label: t("survey.communityEngagement"), name: "q35" },
+    { label: t("survey.laborRelations"), name: "q36" },
+    { label: t("survey.occupationalSafety"), name: "q37" },
+    { label: t("survey.trainingDevelopment"), name: "q38" },
+    { label: t("survey.equalityDiversity"), name: "q39" },
+    { label: t("survey.compensationBenefits"), name: "q40" },
+    { label: t("survey.customerPrivacy"), name: "q41" },
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -126,172 +128,81 @@ const ESGSurvey: React.FC = () => {
         body: formData,
       });
 
-      alert("謝謝您的寶貴意見！");
+      alert(t("survey.thankYou"));
     } catch (error) {
-      console.error("表單因伺服器問題傳送失敗，請稍後再試。", error);
+      console.error(t("survey.formError"), error);
     }
   };
 
   return (
     <>
-            <form
-              id="google-form"
-              onSubmit={handleSubmit}
-              className="mt-24  text-[#555555]  "
-            >
-              <p className="text-xl font-semibold tracking-wide">
-                1. 您與至上電子股份有限公司的關係？
-              </p>
-              <div className="flex flex-wrap gap-8 mt-6 ml-7">
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="員工"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">員工</span>
-                  </label>
-                </div>
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="投資人/股東"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">投資人/股東</span>
-                  </label>
-                </div>
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="股東合作夥伴(供應商，承攬商)"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">
-                      股東合作夥伴(供應商，承攬商)
-                    </span>
-                  </label>
-                </div>
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="客戶"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">客戶</span>
-                  </label>
-                </div>
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="政府與主管機關"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">政府與主管機關</span>
-                  </label>
-                </div>
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="媒體"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">媒體</span>
-                  </label>
-                </div>
-                <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="radio"
-                      name="q1"
-                      className="radio checked:bg-[#FF8D50]"
-                      value="社區居民"
-                      onChange={handleInputChange}
-                    />
-                    <span className="label-text pl-2">社區居民</span>
-                  </label>
-                </div>
-              </div>
+      <form
+        id="google-form"
+        onSubmit={handleSubmit}
+        className="mt-24  text-[#555555]  "
+      >
+        <p className="text-xl font-semibold tracking-wide">
+          {t("survey.relationshipQuestion")}
+        </p>
 
-              <SlideQuestion
-                questionNumber={2}
-                questionText="您主要關注至上電子股份有限公司的議題為何？【公司治理面（經濟面）】（1-5分）"
-                subQuestions={subQuestions02}
-                handleInputChange={handleInputChange}
-              />
-              <SlideQuestion
-                questionNumber={3}
-                questionText="您主要關注至上電子的哪些議題？【環境面】（1-5分）"
-                subQuestions={subQuestions03}
-                handleInputChange={handleInputChange}
-              />
-              <SlideQuestion
-                questionNumber={4}
-                questionText="您主要關注至上電子的哪些議題？【社會面】（1-5分）"
-                subQuestions={subQuestions04}
-                handleInputChange={handleInputChange}
-              />
-              <SlideQuestion
-                questionNumber={5}
-                questionText="您覺得這些議題對於經濟 / 社會 / 環境的影響大不大？【公司治理面（經濟面）】（1-5分）"
-                subQuestions={subQuestions05}
-                handleInputChange={handleInputChange}
-              />
-              <SlideQuestion
-                questionNumber={6}
-                questionText="您覺得這些議題對於經濟 / 社會 / 環境的影響大不大？【環境面】（1-5分）"
-                subQuestions={subQuestions06}
-                handleInputChange={handleInputChange}
-              />
-              <SlideQuestion
-                questionNumber={7}
-                questionText="您覺得這些議題對於經濟 / 社會 / 環境的影響大不大？【社會面】（1-5分）"
-                subQuestions={subQuestions07}
-                handleInputChange={handleInputChange}
-              />
+        <div className="flex flex-wrap gap-8 mt-6 ml-7">
+          {[
+            "employee",
+            "investor",
+            "partner",
+            "customer",
+            "government",
+            "media",
+            "community",
+          ].map((value, idx) => (
+            <div className="form-control" key={idx}>
+              <label className="label cursor-pointer">
+                <input
+                  type="radio"
+                  name="q1"
+                  className="radio checked:bg-[#FF8D50]"
+                  value={t(`survey.relationshipOptions.${value}`)}
+                  onChange={handleInputChange}
+                />
+                <span className="label-text pl-2">
+                  {t(`survey.relationshipOptions.${value}`)}
+                </span>
+              </label>
+            </div>
+          ))}
+        </div>
 
-              <p className="text-xl font-semibold tracking-wide">
-                8. 您對於至上電子股份有限公司的治理 / 社會 /
-                環境方面有什麼建議呢？
-              </p>
+        {[2, 3, 4, 5, 6, 7].map((num, idx) => (
+          <SlideQuestion
+            key={idx}
+            questionNumber={num}
+            questionText={t(`survey.question${num}`)}
+            subQuestions={eval(`subQuestions0${num}`)}
+            handleInputChange={handleInputChange}
+          />
+        ))}
 
-              <input
-                type="text"
-                placeholder="您的寶貴意見"
-                className="input input-bordered  w-full max-w-[900px] mt-4 ml-7"
-                onChange={handleInputChange}
-                name="q42"
-              />
+        <p className="text-xl font-semibold tracking-wide">
+          {t("survey.suggestions")}
+        </p>
+        <input
+          type="text"
+          placeholder={t("survey.placeholder")}
+          className="input input-bordered w-full max-w-[900px] mt-4 ml-7"
+          onChange={handleInputChange}
+          name="q42"
+        />
 
-
-              <div className="my-12">
-                <button
-                  type="submit"
-                  className="flex px-8 py-4 rounded-full bg-[#FF8D50] text-white items-center justify-between w-[180px] duration-300 hover:w-[200px] hover:shadow-lg"
-                >
-                  送出
-                  <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-              </div>
-            </form>
+        <div className="my-12">
+          <button
+            type="submit"
+            className="flex px-8 py-4 rounded-full bg-[#FF8D50] text-white items-center justify-between w-[180px] duration-300 hover:w-[200px] hover:shadow-lg"
+          >
+            {t("survey.submit")}
+            <FontAwesomeIcon icon={faArrowRight} />
+          </button>
+        </div>
+      </form>
     </>
   );
 };

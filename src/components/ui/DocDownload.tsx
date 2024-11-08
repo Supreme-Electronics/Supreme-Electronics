@@ -21,7 +21,7 @@ const DocDownload: React.FC<DownloadProps> = ({
     return (
       <Link to={href} target="_blank">
         <div
-          className={`tracking-wide text-center duration-300 px-6 py-4 shadow w-full group hover:text-orange rounded-xl mb-4 ${className}`}
+          className={`tracking-wide text-center duration-300 px-6 py-4 shadow w-full group hover:text-orange rounded-xl bg-white mb-4 ${className}`}
         >
           {text}
           <FontAwesomeIcon
@@ -37,7 +37,7 @@ const DocDownload: React.FC<DownloadProps> = ({
       <div className="text-orange py-4 px-6 rounded-xl border border-orange xl:min-w-[140px] text-center hidden xl:block">{date}</div>
         <Link to={href} target="_blank" className="flex-grow">
           <div
-            className={`tracking-wide text-center duration-300 px-6 py-4 shadow w-full group hover:text-orange rounded-xl   ${className}`}
+            className={`tracking-wide text-center duration-300 px-6 py-4 shadow w-full group hover:text-orange rounded-xl bg-white   ${className}`}
           >
             {text}
             <FontAwesomeIcon

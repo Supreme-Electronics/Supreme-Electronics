@@ -9,6 +9,7 @@ interface DownloadProps {
   className?: string;
   type?: "basic" | "date";
   date?: string;
+  primaryColor?: string;
 }
 
 const Button: React.FC<DownloadProps> = ({
@@ -17,11 +18,13 @@ const Button: React.FC<DownloadProps> = ({
   className = "",
   type = "basic",
   date = "",
+  primaryColor = "#FF8D50",
 }) => {
   if (type === "basic") {
     return (
       <a
-        className="bg-orange text-white px-6 py-2 font-en rounded-full flex items-center group cursor-pointer hover-shadow w-fit"
+        className="text-white px-6 py-2 font-en rounded-full flex items-center group cursor-pointer hover-shadow w-fit mt-4"
+        style={{backgroundColor:primaryColor}}
         href={href}
         target="_blank"
       >

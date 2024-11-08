@@ -24,7 +24,7 @@ interface ImgProps {
     };
   
     return (
-      <>
+      <div className="flex justify-center">
         {!isLoaded && (
           <div className={`mt-4 object-cover h-[700px] w-full bg-gray-300 animate-pulse flex items-center justify-center ${className}`}>
             <svg
@@ -43,7 +43,7 @@ interface ImgProps {
           src={src}
           alt={alt}
           width={width}
-          className={`mt-4 object-cover transition-opacity duration-500 ease-in-out ${className} ${
+          className={`mt-4 object-cover transition-opacity duration-500 ease-in-out w-[100%] ${className} ${
             isLoaded ? "opacity-100" : "opacity-0"
           }`}
           onLoad={handleImageLoad}
@@ -55,7 +55,7 @@ interface ImgProps {
             {desc}
           </p>
         )}
-      </>
+      </div>
     );
   };
   

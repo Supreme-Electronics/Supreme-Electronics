@@ -1,0 +1,258 @@
+{
+  "title": "薪酬委員會",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730294105/bg-compensation-committee_ai5vob.webp",
+  "primaryColor": "#4694d1",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "薪資報酬委員會"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "本公司於2011年成立薪資報酬委員會，並由董事會訂定「薪資報酬委員會組織規程」，以強化公司治理及健全董事與經理人之薪資報酬制度。薪資報酬委員會每年至少召開兩次會議，並於必要時隨時召開。委員會秉持善良管理人之注意，依法忠實履行職權，並將建議提交董事會討論。此外，公司為了讓委員更加了解相關法令規範及公司運作情況，會安排簡報說明薪資報酬相關法令及高階經理人之薪酬福利現況。薪酬委員會旨在協助董事會執行與評估公司整體薪酬及福利政策，並針對經理人報酬進行審查。該委員會由三位獨立董事組成，負責審核薪酬、績效及調薪作業，相關政策與規範皆訂於公司之辦法及規章中。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "薪酬政策"
+            }
+          },
+          {
+            "type": "H2",
+            "props": {
+              "text": "董事薪酬政策"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "依公司章程第20條規定（扣除員工酬勞及董事酬勞前之本期稅前淨利，提撥不高於2%）、「董事績效評估辦法」及「董事及經理人薪酬與績效管理辦法」作為評核之依據，重要評估項目：參考公司當年度整體營運績效、個別董事對公司營運之參與度、內部自評/外部評核、永續發展目標、同業董事酬金水準。"
+              ]
+            }
+          },
+
+          {
+            "type": "H2",
+            "props": {
+              "text": "經理人薪酬政策"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "依公司章程第20條規定（扣除員工酬勞及董事酬勞前之本期稅前淨利，提撥1~5%）、「績效考核管理辦法」及「董事及經理人薪酬與績效管理辦法」作為評核之依據，重要評估項目：個人績效目標達成率、對公司營業目標貢獻度、領導與組織能力、永續發展目標參與、公司營狀況、相關法令及參考同業對於類職位之水準，適時檢討酬金制度而給予合理報酬。"
+              ]
+            }
+          },
+
+          {
+            "type": "H2",
+            "props": {
+              "text": "員工薪酬政策"
+            }
+          },
+
+          {
+            "type": "P",
+            "props": {
+              "paragraphs": [
+                "依公司章程第 20 條規定(扣除員工酬勞及董事酬勞前之本期稅前淨利，提撥 1~5%)、「績效考核管理辦法」作為評核之依循，參酌當年度獲利情形及衡量員工績效據以調薪及給予獎酬。"
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "薪酬委員會成員"
+            }
+          },
+          {
+            "type": "JobInfo",
+            "props": {
+              "people": [
+                {
+                  "position": "獨立董事",
+                  "name": "林佩蓉",
+                  "experience": [
+                    "國立台灣大學管理學院",
+                    "台大-復旦EMBA境外專班碩士班",
+                    "東森電視業務營銷部副總經理"
+                  ],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "安禾智通（股）公司董事長",
+                    "安璽整合行銷(股)公司董事長",
+                    "鉑齡(股)公司董事長",
+                    "安投(股)公司董事長",
+                    "安智媒體行銷(股)公司董事長"
+                  ]
+                },
+                {
+                  "position": "獨立董事",
+                  "name": "楊耀松",
+                  "experience": [
+                    "英國萊斯特大學EMBA",
+                    "魔奇科技(股)公司董事",
+                    "香港華馨達國際(股)公司副董事長",
+                    "晨星半導體(股)公司總經理特助"
+                  ],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "香港華馨達國際(股)公司副董事長"
+                  ]
+                },
+                {
+                  "position": "獨立董事",
+                  "name": "黃國誠",
+                  "experience": ["清華大學數學系", "威強電(股)公司副總經理"],
+                  "currentRoles": [
+                    "本公司獨立董事",
+                    "上海金泓格國際貿易(有)公司監察人",
+                    "泓格通科技(武漢)(有)公司監察人",
+                    "泓格科技(股)公司副總經理"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "委員會運作與成效概況"
+            }
+          },
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["重要決議事項", "運作情形", "績效評估"],
+              "tabs": {
+                "重要決議事項": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2024年薪酬委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514554/2024_CompensationCommitteeMeetingResolutions_saj4ot.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2023年薪酬委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514553/2023_CompensationCommitteeMeetingResolutions_un9er4.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2022年薪酬委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514551/2022_CompensationCommitteeMeetingResolutions_znn41u.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2021年薪酬委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514549/2021_CompensationCommitteeMeetingResolutions_qfvpn0.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2020年薪酬委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514548/2020_CompensationCommitteeMeetingResolutions_q9youy.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2019年薪酬委員會重要決議事項",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514548/2019_CompensationCommitteeMeetingResolutions_bxq2os.pdf"
+                    }
+                  }
+                ],
+                "運作情形": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "薪酬委員會運作情形",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514555/CompensationCommitteeOperationalStatus_x8x5mz.pdf"
+                    }
+                  }
+                ],
+                "績效評估": [
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2023年薪酬委員會績效評估",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514555/2023_CompensationCommitteePerformance_xeqw0j.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2022年薪酬委員會績效評估",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514552/2022_CompensationCommitteePerformance_oovysn.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2021年薪酬委員會績效評估",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514550/2021_CompensationCommitteePerformance_fnf0dx.pdf"
+                    }
+                  },
+                  {
+                    "type": "DocDownload",
+                    "props": {
+                      "text": "2020年薪酬委員會績效評估",
+                      "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730514549/2020_CompensationCommitteePerformance_qqxxlo.pdf"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

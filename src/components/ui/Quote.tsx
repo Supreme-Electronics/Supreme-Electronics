@@ -10,7 +10,7 @@ const Quote: React.FC<TextProps> = ({ text, className = "" }) => {
   return (
     <div className="relative xl:px-36 xl:py-6 px-12 my-24">
       <p
-        className={`font-light text-2xl tracking-wide text-center text-justify ${className}`}
+        className={`font-light text-2xl tracking-wide text-center  ${className}`}
       >
         {text}
       </p>

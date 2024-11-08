@@ -1,0 +1,191 @@
+{
+  "title": "職業安全衛生",
+  "background": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730444504/bg-occupational-safety_w10jx9.webp",
+  "primaryColor": "#e3697a",
+  "components": [
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "職業安全衛生"
+            }
+          },
+
+          {
+            "type": "Tab",
+            "props": {
+              "categories": ["風險衝擊管理", "職業安全衛生政策", "教育訓練"],
+              "tabs": {
+                "風險衝擊管理": [
+                  {
+                    "type": "StepProcess",
+                    "props": {
+                      "steps": [
+                        {
+                          "icon": "faAmbulance", 
+                          "step": "Step 1",
+                          "title": "緊急送醫支援", 
+                          "text": "事故發生時，及時協助受傷者送醫。"
+                        },
+                        {
+                          "icon": "faFileMedical", 
+                          "step": "Step 2",
+                          "title": "勞保及團保申請協助", 
+                          "text": "協助申請勞保給付及團保給付。"
+                        },
+                        {
+                          "icon": "faExclamationTriangle", 
+                          "step": "Step 3",
+                          "title": "事故原因檢討與預防", 
+                          "text": "檢討事故發生原因並預防類似情況發生。"
+                        },
+                        {
+                          "icon": "faChalkboardTeacher", 
+                          "step": "Step 4",
+                          "title": "職災預防教育訓練", 
+                          "text": "製作案例並對員工實施職災預防教育訓練。"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Note",
+                    "props": {
+                      "className": "mt-12",
+                      "text": "為將職業災害所造成的衝擊及風險降至最低，針對各營運據點進行危害鑑別，2023 年度無鑑別出重大危害。"
+                    }
+                  }
+                ],
+                "職業安全衛生政策": [
+                  {
+                    "type": "P",
+                    "props": {
+                      "paragraphs": [
+                        "本公司將員工的健康與安全放在第一位，致力打造一個舒適安全、零職業災害的安心工作環境。本公司遵循 「職業安全衛生法」及相關團體之規定訂定政策，由總務單位專責研議環境安全衛生相關事項，包含："
+                      ]
+                    }
+                  },
+                  {
+                    "type": "List",
+                    "props": {
+                      "type": "basic",
+                      "items": [
+                        {
+                          "label": "定期對辦公環境進行檢查作業，必要時須提出檢討改進事項。"
+                        },
+                        {
+                          "label": "不定期以郵件等方式宣導環境安全之重要性， 鼓勵員工主動回覆表達意見。"
+                        }
+                      ],
+                      "className": "list-disc"
+                    }
+                  },
+
+                  {
+                    "type": "P",
+                    "props": {
+                      "className": "mt-12",
+                      "paragraphs": [
+                        "本公司職業安全衛生管理系統現階段涵蓋 178 名員工，包含除顧問人員及海外人員以外的全體員工。",
+                        "本公司辦公環境主要為辦公室以及倉儲兩類地點。針對辦公處所以及倉儲環境，制訂以下職業安全衛生規範："
+                      ]
+                    }
+                  },
+
+                  {
+                    "type": "H2",
+                    "props": { "text": "辦公處所" }
+                  },
+
+                  {
+                    "type": "List",
+                    "props": {
+                      "type": "basic",
+                      "items": [
+                        {
+                          "label": "設設置符合飲用水標準之飲水設備，定期清洗及維護。"
+                        },
+                        {
+                          "label": "依法規規定設置完整之消防系統（如：緊急電源插座、排煙設備、逃生指示燈、滅火器、安全逃生通道等）。"
+                        },
+                        {
+                          "label": "消防設備檢查：1次／年；消防演習：1次／半年。"
+                        },
+                        {
+                          "label": "大樓管委會配置數名警衛人員，負責大樓巡邏、訪客登記及車輛進出管制，以確保大樓安全。"
+                        },
+                        {
+                          "label": "本公司設有二名員工領具消防人員證照，以防發生緊急情況時能有專業人員引導員工安全疏散。"
+                        }
+                      ],
+                      "className": "list-disc"
+                    }
+                  },
+
+                  {
+                    "type": "H2",
+                    "props": { "text": "倉儲環境" }
+                  },
+                  {
+                    "type": "List",
+                    "props": {
+                      "type": "basic",
+                      "items": [
+                        {
+                          "label": "秉持工作安全至上原則，倉儲之貨運搬運、堆放係依勞動部「職業安全衛生設施規則」辦理。"
+                        },
+                        {
+                          "label": "貨物堆放高度不得超過 180 cm 或六層高度，二者限高規定取其先達標者遵守（如：疊放六層高之貨物尚未滿 180cm 者，即不可再往上疊放至 180cm，反之亦然）。"
+                        },
+                        {
+                          "label": "貨物搬運時盡量利用機械代替人力，例：手推車。"
+                        },
+                        {
+                          "label": "宣導工作場所不得穿著露指型鞋款，以包鞋為佳。"
+                        }
+                      ],
+                      "className": "list-disc"
+                    }
+                  }
+                ],
+                "教育訓練": [
+                  {
+                    "type": "P",
+                    "props": {
+                      "paragraphs": [
+                        "定期辦理新進員工工安訓練、宣導課程，以提升員工對職業安全衛生的知識以及職場安全意識，降低公安意外發生的可能性。2023年，指派兩名員工參與12小時「防火管理人」受訓課程，取得消防人員證照，負責本公司之消防防護計畫的製作與實行。同年9月，安排全體員工參與職業安全衛生課程，參與人次152人次；時數456小時。"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "components": [
+          {
+            "type": "H1",
+            "props": {
+              "text": "年度職安衛生相關統計報告"
+            }
+          },
+          {
+            "type": "DocDownload",
+            "props": {
+              "text": "2023年職安衛生相關統計報告",
+              "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730638762/2023_Enterprise_OccupationalSafety_lw2u2l.pdf"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

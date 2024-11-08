@@ -62,7 +62,7 @@ const KeyTopicsList: React.FC<KeyTopicsProps> = ({ topics }) => {
                     >
                       {topic.number}
                     </span>
-                    <span className="text-[1rem] tracking-wide leading-7 text-justify text-gray-600">{topic.description}</span>
+                    <span className="text-[1rem] tracking-wide leading-7 ">{topic.description}</span>
                   </li>
                 )
               )}
