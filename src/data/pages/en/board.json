@@ -585,7 +585,71 @@
             }
           ]
         }
+      },
+      {
+        "type": "Section",
+        "props": {
+          "components": [
+            {
+              "type": "H1",
+              "props": {
+                "text": "Overview of Board Operations and Effectiveness"
+              }
+            },
+            {
+              "type": "Tab",
+              "props": {
+                "categories": ["Key Resolutions", "Operational Status", "Performance Evaluation"],
+                "tabs": {
+                  "Key Resolutions": [
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2024 Board of Directors Key Resolutions",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1735122842/2024%E5%B9%B4%E5%BA%A6%E8%91%A3%E4%BA%8B%E6%9C%83%E9%87%8D%E8%A6%81%E6%B1%BA%E8%AD%B0%E4%BA%8B%E9%A0%85-%E8%8B%B1_ui8xb1.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2023 Board of Directors Key Resolutions",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1735122843/2023%E5%B9%B4%E5%BA%A6%E8%91%A3%E4%BA%8B%E6%9C%83%E9%87%8D%E8%A6%81%E6%B1%BA%E8%AD%B0%E4%BA%8B%E9%A0%85-%E8%8B%B1_kg8o2s.pdf"
+                      }
+                    }
+                  ],
+                  "Operational Status": [
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2023 Board of Directors and Board Members Operational Status",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1735201916/%E8%91%A3%E4%BA%8B%E6%9C%83%E9%81%8B%E4%BD%9C%E6%83%85%E5%BD%A2-%E8%8B%B1_rrcrbg.pdf"
+                      }
+                    }
+                  ],
+                  "Performance Evaluation": [
+
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2023 Board of Directors and Board Members Performance Evaluation",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1735122842/2023%E5%B9%B4%E5%BA%A6%E8%91%A3%E4%BA%8B%E6%9C%83%E6%9A%A8%E8%91%A3%E4%BA%8B%E6%88%90%E5%93%A1%E7%B8%BE%E6%95%88%E8%A9%95%E4%BC%B0-%E8%8B%B1_sneosm.pdf"
+                      }
+                    },
+                    {
+                      "type": "DocDownload",
+                      "props": {
+                        "text": "2023 Board of Directors and Board Members External Performance Evaluation",
+                        "href": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1735122842/2023%E5%B9%B4%E5%BA%A6%E8%91%A3%E4%BA%8B%E6%9C%83%E5%A4%96%E9%83%A8%E7%B8%BE%E6%95%88%E8%A9%95%E4%BC%B0-%E8%8B%B1_t314jh.pdf"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
       }
+      
     ]
   }
   

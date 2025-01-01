@@ -17,14 +17,20 @@ const Footer: React.FC = () => {
         <div className="content-container">
           <div className="flex lg:flex-row flex-col justify-between gap-6  lg:items-center">
             <div className="flex gap-6 items-center">
-              <img
-                src={SupremeLogo}
-                alt="Supreme Logo"
-                className="lg:w-[230px] w-[150px]"
-              />
+              <a
+                href="http://www.supreme.com.tw"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={SupremeLogo}
+                  alt="Supreme Logo"
+                  className="lg:w-[230px] w-[150px]"
+                />
+              </a>
               <div className="w-[1px] h-full bg-gray-300">&nbsp;</div>
               <Link to="/">
-                <p className="font-en">ESG</p>
+                <p className="">{t("common.esgSupreme")}</p>
               </Link>
             </div>
             <div className="flex lg:flex-row flex-col gap-6  tracking-wide text-lg mt-8 lg:mt-0">

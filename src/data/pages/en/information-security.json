@@ -209,7 +209,7 @@
             "type": "Img",
             "props": {
               "className": "max-w-[1000px]",
-              "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730781230/%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E5%B0%88%E6%A1%88%E5%B0%8F%E7%B5%84%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86%E6%9E%B6%E6%A7%8B_ycv00e.webp",
+              "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1734871256/Information_Security_Structure_EN_0_hu5iov.webp",
               "alt": "Information Security Project Team Risk Management Framework"
             }
           }
@@ -356,7 +356,7 @@
             "type": "Img",
             "props": {
               "className": "max-w-[1000px]",
-              "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1730781932/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E9%80%9A%E5%A0%B1%E8%88%87%E8%99%95%E7%90%86%E6%B5%81%E7%A8%8B_htih28.jpg",
+              "src": "https://res.cloudinary.com/dvgxlmyje/image/upload/v1734871257/IT_Security_Incident_Response_Procedure_EN_eqyyoy.webp",
               "alt": "Information Security Incident Reporting and Handling Process"
             }
           }

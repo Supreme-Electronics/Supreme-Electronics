@@ -8,6 +8,13 @@ interface StatProps {
   color?: string;
 }
 
+const formatNumberWithCommas = (value: number, decimals: number) => {
+  const fixedValue = value.toFixed(decimals);
+  const [integerPart, decimalPart] = fixedValue.split('.');
+  const formattedInteger = integerPart.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return decimalPart ? `${formattedInteger}.${decimalPart}` : formattedInteger;
+};
+
 export const Stat: React.FC<StatProps> = ({
   num,
   suffix,
@@ -28,7 +35,7 @@ export const Stat: React.FC<StatProps> = ({
       onUpdate(value) {
         if (!ref.current) return;
 
-        ref.current.textContent = value.toFixed(decimals);
+        ref.current.textContent = formatNumberWithCommas(value, decimals);
       },
     });
   }, [num, decimals, isInView, hasAnimated]);
@@ -36,7 +43,7 @@ export const Stat: React.FC<StatProps> = ({
   return (
     <>
       <span ref={ref} className="mr-1" style={{ color }}></span>
-      <span style={{color}} className="text-sm ml-2">{suffix}</span>
+      <span style={{ color }} className="text-sm ml-2">{suffix}</span>
     </>
   );
 };
@@ -58,7 +65,7 @@ const StatDisplay: React.FC<StatDisplayProps> = ({ stats, primaryColor = '#FF8D5
       {stats.map((stat, index) => (
         <React.Fragment key={index}>
           <div className="xl:flex justify-center w-full border-b-[1px] py-4 xl:border-none xl:py-0 xl:w-fit max-w-[200px]">
-            <div className="text-left  text-[16px] text-[#5b5b5b] w-full">
+            <div className="text-left text-[16px] text-[#5b5b5b] w-full">
               <p
                 className="text-[32px] font-semibold"
                 style={{ color: primaryColor }}
@@ -67,6 +74,7 @@ const StatDisplay: React.FC<StatDisplayProps> = ({ stats, primaryColor = '#FF8D5
                   stat.describtion
                 ) : (
                   <Stat
+                    key={`stat-${stat.num}-${stat.suffix}-${index}`} 
                     num={stat.num}
                     suffix={stat.suffix}
                     decimals={stat.num % 1 !== 0 ? 1 : 0}
@@ -74,7 +82,6 @@ const StatDisplay: React.FC<StatDisplayProps> = ({ stats, primaryColor = '#FF8D5
                   />
                 )}
               </p>
-              
               <p className="text-sm">{stat.text}</p>
             </div>
           </div>

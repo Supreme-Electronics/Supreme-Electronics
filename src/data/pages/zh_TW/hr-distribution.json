@@ -30,14 +30,14 @@
                       "headers": ["主要類別", "男性", "女性", "總計", "比例"],
                       "rows": [
                         [
-                          { "content": "經理級以上", "noWrap": true },
+                          { "content": "經理級以上（非研發主管）", "noWrap": true },
                           { "content": "49" },
                           { "content": "12" },
                           { "content": "61" },
                           { "content": "30.81%" }
                         ],
                         [
-                          { "content": "經理級以上", "noWrap": true },
+                          { "content": "經理級以上（研發主管）", "noWrap": true },
                           { "content": "9" },
                           { "content": "-" },
                           { "content": "9" },
@@ -91,8 +91,11 @@
                         "性別",
                         "年齡",
                         "2021年",
+                        "佔全體員工比例(%)",
                         "2022年",
-                        "2023年"
+                        "佔全體員工比例(%)",
+                        "2023年",
+                        "佔全體員工比例(%)"
                       ],
                       "rows": [
                         [
@@ -101,10 +104,16 @@
                           { "content": "未滿30歲" },
                           { "content": "-" },
                           { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" }
                         ],
                         [
                           { "content": "30-50歲" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" },
                           { "content": "-" },
                           { "content": "-" }
@@ -112,12 +121,18 @@
                         [
                           { "content": "大於50歲" },
                           { "content": "6" },
+                          { "content": "85.7%" },
                           { "content": "7" },
-                          { "content": "7" }
+                          { "content": "87.5%" },
+                          { "content": "7" },
+                          { "content": "87.5%" }
                         ],
                         [
                           { "content": "女", "rowSpan": 3 },
                           { "content": "未滿30歲" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" },
                           { "content": "-" },
                           { "content": "-" }
@@ -126,14 +141,24 @@
                           { "content": "30-50歲" },
                           { "content": "-" },
                           { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" }
                         ],
                         [
                           { "content": "大於50歲" },
                           { "content": "1" },
+                          { "content": "14.3%" },
                           { "content": "1" },
-                          { "content": "1" }
+                          { "content": "12.5%" },
+                          { "content": "1" },
+                          { "content": "12.5%" }
                         ]
+                      ],
+                      "notes":[
+                        "第12屆董事任期：2019.06.28-2022.06.16，整體席次：8席，於2019/07/05補任1席。",
+                        "第13屆董事任期：2022.06.17-2025.06.16，整體席次：8席。"
                       ]
                     }
                   },

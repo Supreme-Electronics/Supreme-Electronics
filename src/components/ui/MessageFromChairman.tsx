@@ -7,6 +7,7 @@ interface MessageFromChairmanProps {
   name: string;
   photo: string;
   className?: string;
+  signature: string;
 }
 
 const MessageFromChairman: React.FC<MessageFromChairmanProps> = ({
@@ -16,6 +17,7 @@ const MessageFromChairman: React.FC<MessageFromChairmanProps> = ({
   jobTitle,
   name,
   photo,
+  signature
 }) => {
   return (
     <div className="relative">
@@ -31,11 +33,12 @@ const MessageFromChairman: React.FC<MessageFromChairmanProps> = ({
             </p>
           ))}
 
-          <p className="mt-24 font-light tracking-wide text-[18px] ">
+          <p className="mt-24 font-light tracking-wide text-[18px]">
             {jobTitle}
-            <span className="ml-6 text-3xl font-light tracking-wdiest">
+            <span className="block sm:inline sm:ml-6 text-3xl font-light tracking-widest mt-4 sm:mt-0">
               {name}
             </span>
+            <img className="w-[150px]" src={signature} />
           </p>
         </div>
         <div className="col-span-2 h-full items-end md:flex hidden">

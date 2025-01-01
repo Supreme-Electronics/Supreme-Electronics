@@ -30,14 +30,14 @@
                       "headers": ["Main Category", "Male", "Female", "Total", "Percentage"],
                       "rows": [
                         [
-                          { "content": "Managerial Level and Above", "noWrap": true },
+                          { "content": "Managerial Level and Above(Non-R&D supervisor)", "noWrap": true },
                           { "content": "49" },
                           { "content": "12" },
                           { "content": "61" },
                           { "content": "30.81%" }
                         ],
                         [
-                          { "content": "Managerial Level and Above", "noWrap": true },
+                          { "content": "Managerial Level and Above(R&D supervisor)", "noWrap": true },
                           { "content": "9" },
                           { "content": "-" },
                           { "content": "9" },
@@ -91,8 +91,11 @@
                         "Gender",
                         "Age",
                         "2021",
+                        "Percentage of Total Employees (%)",
                         "2022",
-                        "2023"
+                        "Percentage of Total Employees (%)",
+                        "2023",
+                        "Percentage of Total Employees (%)"
                       ],
                       "rows": [
                         [
@@ -101,10 +104,16 @@
                           { "content": "Under 30" },
                           { "content": "-" },
                           { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" }
                         ],
                         [
                           { "content": "30-50" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" },
                           { "content": "-" },
                           { "content": "-" }
@@ -112,12 +121,18 @@
                         [
                           { "content": "Over 50" },
                           { "content": "6" },
+                          { "content": "85.7" },
                           { "content": "7" },
-                          { "content": "7" }
+                          { "content": "87.5" },
+                          { "content": "7" },
+                          { "content": "87.5" }
                         ],
                         [
                           { "content": "Female", "rowSpan": 3 },
                           { "content": "Under 30" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" },
                           { "content": "-" },
                           { "content": "-" }
@@ -126,17 +141,28 @@
                           { "content": "30-50" },
                           { "content": "-" },
                           { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
+                          { "content": "-" },
                           { "content": "-" }
                         ],
                         [
                           { "content": "Over 50" },
                           { "content": "1" },
+                          { "content": "14.3" },
                           { "content": "1" },
-                          { "content": "1" }
+                          { "content": "12.5" },
+                          { "content": "1" },
+                          { "content": "12.5" }
                         ]
+                      ],
+                      "notes": [
+                        "12th Board Term: 2019.06.28-2022.06.16, Total Seats: 8, 1 seat supplemented on 2019/07/05.",
+                        "13th Board Term: 2022.06.17-2025.06.16, Total Seats: 8."
                       ]
                     }
                   },
+                  
                   {
                     "type": "H2",
                     "props": {

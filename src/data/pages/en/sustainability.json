@@ -48,7 +48,7 @@
           {
             "type": "OverviewGrid",
             "props": {
-              "centerText": "",
+              "centerText": "Supreme",
               "sections": [
                 {
                   "title": "Implement Corporate Governance",

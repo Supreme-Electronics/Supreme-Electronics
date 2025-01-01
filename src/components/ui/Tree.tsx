@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTree, faTrees, faTreeDeciduous } from "@fortawesome/pro-light-svg-icons";
 import { motion, useInView } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 interface TreeData {
   year: number;
@@ -19,6 +20,7 @@ const TreeItem: React.FC<{ item: TreeData; maxTrees: number; treeIcons: any[] }>
 
   const ref = React.useRef(null);
   const inView = useInView(ref, { once: true });
+  const { t } = useTranslation();
 
   useEffect(() => {
     const updateTreeCount = () => {
@@ -60,7 +62,7 @@ const TreeItem: React.FC<{ item: TreeData; maxTrees: number; treeIcons: any[] }>
             transition={{ duration: 0.5, delay: 1.5 }} // 延遲數字出現
           >
             {item.trees}
-            <span className="text-xs ml-2 tracking-wide text-orange">棵</span>
+            <span className="text-xs ml-2 tracking-wide text-orange">{t("common.trees")}</span>
           </motion.span>
         </motion.div>
 

@@ -5,6 +5,7 @@ import NewsDetail from "./components/ui/NewsDetail";
 import LandingPage from "./pages";
 import ScrollToTop from "./components/utils/scrollToTop";
 import './i18n'
+import AdminPage from "./pages/Admin/App";
 import { useEffect } from 'react';
 import i18n from "./i18n";
 function App() {
